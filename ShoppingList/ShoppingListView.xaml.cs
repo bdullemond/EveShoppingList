@@ -60,6 +60,10 @@ namespace ShoppingList
 
         private void LoadButton_OnClick(object sender, RoutedEventArgs e)
         {
+            if (this.viewModel.IsDirty)
+                if (MessageBox.Show("You have unsaved changes. Continue?", "Unsaved Changes", MessageBoxButton.YesNo) == MessageBoxResult.No)
+                    return;
+            
             // Create an instance of the open file dialog box.
             var openFileDialog1 = new OpenFileDialog();
 
@@ -119,6 +123,17 @@ namespace ShoppingList
         private void AddItemButton_OnClick(object sender, RoutedEventArgs e)
         {
             throw new NotImplementedException();
+        }
+
+        private void NewButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.viewModel.Clear();
+        }
+
+        private void ClipboardButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            Clipboard.SetText(this.viewModel.GetList());
+            MessageBox.Show("Copied to clipboard!", "Copy");
         }
     }
 }

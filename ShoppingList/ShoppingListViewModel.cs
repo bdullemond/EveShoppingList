@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
 using System.Xml.Serialization;
+using ShoppingList.Annotations;
 
 namespace ShoppingList
 {
-    public class ShoppingListViewModel
+    public class ShoppingListViewModel : INotifyPropertyChanged
     {
        
         private readonly Dictionary<string, Item> items = new Dictionary<string, Item>();
@@ -20,6 +24,17 @@ namespace ShoppingList
 
         public int DefaultCapBoosterAmount { get; set; }
 
+        private bool isDirty;
+        public bool IsDirty
+        {
+            get { return this.isDirty; }
+            set 
+            {
+                if (value == this.isDirty) return;
+                this.isDirty = value;
+                OnPropertyChanged();
+            }
+        }
 
         public ShoppingListViewModel()
         {
@@ -27,6 +42,7 @@ namespace ShoppingList
             this.ShipFittings = new ObservableCollection<ShipFitting>();
             this.DefaultAmmoAmount = 200;
             this.DefaultCapBoosterAmount = 20;
+            this.IsDirty = false;
         }
 
         #region methods
@@ -88,6 +104,7 @@ namespace ShoppingList
             {
                 this.ShipFittings.Add(fit);
             }
+            this.IsDirty = true;
         }
 
 
@@ -123,9 +140,39 @@ namespace ShoppingList
                 var formatter = new XmlSerializer(typeof (List<ShipFitting>));
                 formatter.Serialize(outFile, this.ShipFittings.ToList());
             }
+            this.IsDirty = false;
+        }
+
+        public void Clear()
+        {
+            this.shipFittings.Clear();
+            this.items.Clear();
+            this.isDirty = false;
         }
 
         #endregion
 
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        [NotifyPropertyChangedInvocator]
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChangedEventHandler handler = PropertyChanged;
+            if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+
+        private const string clipboardFormat = "{0} - {1} \\ {2}";
+
+        public string GetList()
+        {
+            var sb = new StringBuilder();
+
+            foreach (var item in this.Items)
+            {
+                sb.AppendLine(string.Format(clipboardFormat, item.Quantity, item.Category, item.Name));
+            }
+            return sb.ToString();
+        }
     }
 }

@@ -27,10 +27,10 @@ namespace ShoppingList
                         if (reader.Name != "Item") 
                             continue;
 
-                        reader.MoveToAttribute("groupName");
+                        reader.MoveToAttribute("GroupName");
                         var groupName = reader.ReadContentAsString();
 
-                        reader.MoveToAttribute("typeName");
+                        reader.MoveToAttribute("TypeName");
                         var itemName = reader.ReadContentAsString();
 
                         result.Add(itemName, groupName);
