@@ -31,7 +31,7 @@ namespace ShoppingList
         {
             this.Name = name.Trim();
             this.Quantity = quantity;
-            this.Category = ItemDataReader.GetItems()[name.Trim()];;
+            this.Category = ItemDataSource.GetItems()[name.Trim()];;
         }
 
         public void Add(int quantity)

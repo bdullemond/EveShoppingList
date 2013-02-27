@@ -49,7 +49,7 @@ namespace ShoppingList
 
         public void Add(string fitting)
         {
-            var shipFitting = new ShipFitting(fitting);
+            var shipFitting = new ShipFitting(fitting, this.DefaultAmmoAmount, this.DefaultCapBoosterAmount);
             this.Add(shipFitting);
         }
 

@@ -10,10 +10,6 @@ namespace ShoppingList
     public class ShipFitting
     {
         readonly List<string> empties = new List<string>() { "[empty high slot]", "[empty med slot]", "[empty low slot]", "[empty rig slot]", };
-        readonly List<string> drones = new List<string>() { 
-            "Warrior", "Hobgoblin", "Hornet", "Acolyte",
-            "Valkryie", "Hammerhead", "Vespa", "Infiltrator",
-            "Berserker", "Ogre", "Wasp", "Praetor",}; 
 
         public string Fitting { get; set; }
 
@@ -29,9 +25,10 @@ namespace ShoppingList
             this.Id = Guid.NewGuid();
         }
 
-        public ShipFitting(string fitting) : this()
+        public ShipFitting(string fitting, int ammoChargeAmount, int capBoosterChargeAmount) : this()
         {
-
+            var drones = ItemDataSource.GetDrones();
+            var capBoosterCharges = ItemDataSource.GetCapBoosterCharges();
 
             this.Fitting = fitting;
 
@@ -54,15 +51,15 @@ namespace ShoppingList
                 if (tuples.Count() > 1)
                 {
                     this.Items.Add(new Item(tuples[0], 1));
-                    this.Items.Add(tuples[1].Contains("Cap Booster") 
-                        ? new Item(tuples[1], 20) 
-                        : new Item(tuples[1], 200));
+                    this.Items.Add(capBoosterCharges.Contains(tuples[1])
+                        ? new Item(tuples[1], capBoosterChargeAmount)
+                        : new Item(tuples[1], ammoChargeAmount));
                 }
                 else
                 {
                     var itemName = line;
                     var quantity = 1;
-                    if (this.drones.Any(drone => line.Contains(drone)))
+                    if (drones.Any(drone => line.Contains(drone)))
                     {
                         tuples = line.Split('x');
                         itemName = tuples[0];

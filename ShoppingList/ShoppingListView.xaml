@@ -36,7 +36,7 @@
 
             <TextBox Name="EntryBox" Grid.Row="0" Grid.Column="0" 
                      HorizontalAlignment="Stretch"  Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Stretch" AcceptsReturn="True" AcceptsTab="True"
-                     Background="Gray"/>
+                     Background="Gray" Foreground="Black" Cursor="UpArrow" />
 
             <Button Grid.Row="1" Content="Add" HorizontalAlignment="Left" Margin="10,10,10,10" VerticalAlignment="Top" Height="25" Width="75" Click="AddButton_OnClick">
                 <Button.Style>
