@@ -72,6 +72,17 @@ namespace ShoppingList
             }
         }
 
+        public ShipFitting Clone()
+        {
+            var newFitting = new ShipFitting
+                {
+                    Id = Guid.NewGuid(), 
+                    Name = this.Name, 
+                    Fitting = this.Fitting, 
+                    Items = this.Items
+                };
+            return newFitting;
+        }
         
     }
 }

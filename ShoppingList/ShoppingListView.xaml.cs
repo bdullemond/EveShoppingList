@@ -135,5 +135,12 @@ namespace ShoppingList
             Clipboard.SetText(this.viewModel.GetList());
             MessageBox.Show("Copied to clipboard!", "Copy");
         }
+
+        private void AddFittingButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            var fitting = (ShipFitting)this.ShipFitList.SelectedItem;
+            if (fitting != null)
+                this.viewModel.Add(fitting.Clone());
+        }
     }
 }

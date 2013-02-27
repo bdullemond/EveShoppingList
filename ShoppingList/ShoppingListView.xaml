@@ -111,7 +111,18 @@
                    <ColumnDefinition Width="*"></ColumnDefinition>
                    <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" Content="Remove" HorizontalAlignment="Stretch" Margin="10,10,10,10" VerticalAlignment="Top" Click="RemoveButton_OnClick" >
+                <Button Grid.Column="0" Content="Add" HorizontalAlignment="Stretch" Margin="10,10,10,10" VerticalAlignment="Top" Click="AddFittingButton_OnClick" >
+                    <Button.Style>
+                        <Style>
+                            <Style.Triggers>
+                                <DataTrigger Binding ="{Binding ElementName=ShipFitList, Path=SelectedIndex}" Value="-1">
+                                    <Setter Property="Button.IsEnabled" Value="false"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button Grid.Column="1" Content="Remove" HorizontalAlignment="Stretch" Margin="10,10,10,10" VerticalAlignment="Top" Click="RemoveButton_OnClick" >
                     <Button.Style>
                         <Style>
                             <Style.Triggers>

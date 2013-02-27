@@ -55,7 +55,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Item.cs" />
-    <Compile Include="ItemDataReader.cs" />
+    <Compile Include="ItemDataSource.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="ShipFitting.cs" />
     <Compile Include="ShoppingListViewModel.cs" />
