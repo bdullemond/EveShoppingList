@@ -1,18 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using Microsoft.Win32;
 
 namespace ShoppingList
@@ -24,6 +15,10 @@ namespace ShoppingList
     {
         private readonly ShoppingListViewModel viewModel = new ShoppingListViewModel();
 
+        private ItemView itemView;
+        private SettingsView settingsView;
+        private Item addingItem;
+
         public ShoppingListView()
         {
             InitializeComponent();
@@ -33,10 +28,17 @@ namespace ShoppingList
             }
             
             this.root.DataContext = this.viewModel;
+
+            this.Closing += OnClose;
+        }
+
+        private void OnClose(object sender, CancelEventArgs e)
+        {
+            if (this.itemView != null)
+                this.itemView.Close();
         }
 
 
-        
         private void AddButton_OnClick(object sender, RoutedEventArgs e)
         {
             this.viewModel.Add(this.EntryBox.Text);
@@ -112,17 +114,70 @@ namespace ShoppingList
 
         private void SettingsButton_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            var location = this.SettingsButton.PointToScreen(new Point(0, 0));
+            var settingsTuple = new Tuple<int, int>(this.viewModel.DefaultAmmoAmount, this.viewModel.DefaultCapBoosterAmount);
+            var view = new SettingsView()
+                {
+                    ShowActivated = false,
+                    DataContext = settingsTuple,
+                    ResizeMode = ResizeMode.NoResize,
+                    WindowStartupLocation =WindowStartupLocation.Manual, Top = location.Y, Left = location.X
+                };
+            view.Show();
+            this.settingsView = view;
+            this.settingsView.ApplyButton.Click += SettingsViewApplyButton_Click;
+        }
+
+        private void SettingsViewApplyButton_Click(object sender, RoutedEventArgs e)
+        {
+            var settingsTuple = (Tuple<int, int>) this.settingsView.DataContext;
+            if (settingsTuple != null)
+            {
+                this.viewModel.DefaultAmmoAmount = settingsTuple.Item1;
+                this.viewModel.DefaultCapBoosterAmount = settingsTuple.Item2;
+            }
         }
 
         private void EditItemButton_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            var item = (Item)this.ItemList.SelectedItem;
+            if (item != null)
+            {
+                this.OpenItemView(item);
+            }
+
+        }
+
+        private void OpenItemView(Item item)
+        {
+            var location = this.EditItemButton.PointToScreen(new Point(0, 0));
+            var view = new ItemView
+                {
+                    ShowActivated = false,
+                    DataContext = item,
+                    ResizeMode = ResizeMode.NoResize,
+                    WindowStartupLocation = WindowStartupLocation.Manual, Top = location.Y, Left = location.X
+                };
+            view.Show();
+            this.itemView = view;
+
+            this.itemView.Closed += OnItemView_Closed;
+        }
+
+        private void OnItemView_Closed(object sender, EventArgs e)
+        {
+            if (this.addingItem != null)
+                this.viewModel.AddItem(this.addingItem);
+
+            this.viewModel.UpdateLists();
+
+            this.addingItem = null;
         }
 
         private void AddItemButton_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            this.addingItem = new Item();
+            this.OpenItemView(this.addingItem);
         }
 
         private void NewButton_OnClick(object sender, RoutedEventArgs e)

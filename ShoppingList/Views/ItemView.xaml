@@ -1,0 +1,34 @@
+﻿<Window x:Class="ShoppingList.ItemView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        mc:Ignorable="d" 
+        Title="Item" 
+        d:DesignHeight="40" d:DesignWidth="400"
+        SizeToContent="WidthAndHeight" WindowStyle="ToolWindow"
+        Background="DimGray"
+        BorderBrush="DimGray">
+    <Grid Name="root" Width="400">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ComboBox Grid.Column="0" Name="CategoryList" ItemsSource="{Binding Categories}" SelectedItem="{Binding Item.Category}" Margin="10,10,0,10" SelectionChanged="CategoryList_SelectionChanged"/>
+        <ComboBox Grid.Column="1" Name="ItemList" ItemsSource="{Binding Items}" SelectedItem="{Binding Item.Name}" Margin="0,10,0,10"/>
+        <TextBox Grid.Column="2" Name="QuantityBox" PreviewTextInput="QuantityBox_OnPreviewTextInput" Margin="0,10,0,10" Text="{Binding Quantity, Mode=TwoWay}"></TextBox>
+        <Button Grid.Column="3" Content="Save" Click="SaveButton_Click" Margin="0,10,10,10">
+            <Button.Style>
+                <Style>
+                    <Style.Triggers>
+                        <DataTrigger Binding ="{Binding ElementName=ItemList, Path=SelectedIndex}" Value="-1">
+                            <Setter Property="Button.IsEnabled" Value="false"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Window>

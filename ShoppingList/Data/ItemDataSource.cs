@@ -16,7 +16,7 @@ namespace ShoppingList
                                                                         "Salvage Drones"
                                                                     };
 
-        private static readonly string capBoosterChargeCategory = "Cap Booster Charges";
+        private const string capBoosterChargeCategory = "Cap Booster Charges";
 
         private static Dictionary<string, string> items;
 
@@ -64,6 +64,18 @@ namespace ShoppingList
         public static List<string> GetCapBoosterCharges()
         {
             var result = (from kvp in GetItems() where kvp.Value == capBoosterChargeCategory select kvp.Key).ToList();
+            return result;
+        }
+
+        public static List<string> GetCategories()
+        {
+            var result = GetItems().Values.Distinct().ToList();
+            return result;
+        }
+
+        public static List<string> GetItems(string category)
+        {
+            var result = (from kvp in GetItems() where kvp.Value == category select kvp.Key).ToList();
             return result;
         }
     }

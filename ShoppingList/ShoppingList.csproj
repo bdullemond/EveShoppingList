@@ -54,12 +54,29 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Item.cs" />
-    <Compile Include="ItemDataSource.cs" />
+    <Compile Include="Model\Item.cs" />
+    <Compile Include="Data\ItemDataSource.cs" />
+    <Compile Include="Views\ItemView.xaml.cs">
+      <DependentUpon>ItemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ItemViewModel.cs" />
     <Compile Include="Properties\Annotations.cs" />
-    <Compile Include="ShipFitting.cs" />
-    <Compile Include="ShoppingListViewModel.cs" />
-    <Page Include="ShoppingListView.xaml">
+    <Compile Include="Views\SettingsView.xaml.cs">
+      <DependentUpon>SettingsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SettingsViewModel.cs" />
+    <Compile Include="Model\ShipFitting.cs" />
+    <Compile Include="Views\ShoppingListViewModel.cs" />
+    <Compile Include="Views\ViewModelBase.cs" />
+    <Page Include="Views\ItemView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SettingsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ShoppingListView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -67,7 +84,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ShoppingListView.xaml.cs">
+    <Compile Include="Views\ShoppingListView.xaml.cs">
       <DependentUpon>ShoppingListView.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>

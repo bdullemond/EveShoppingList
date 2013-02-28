@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.IO;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Xml.Serialization;
-using ShoppingList.Annotations;
 
 namespace ShoppingList
 {
-    public class ShoppingListViewModel : INotifyPropertyChanged
+    public class ShoppingListViewModel : ViewModelBase
     {
        
         private readonly Dictionary<string, Item> items = new Dictionary<string, Item>();
@@ -152,16 +149,6 @@ namespace ShoppingList
 
         #endregion
 
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        [NotifyPropertyChangedInvocator]
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChangedEventHandler handler = PropertyChanged;
-            if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
-        }
-
-
         private const string clipboardFormat = "{0} - {1} \\ {2}";
 
         public string GetList()
@@ -173,6 +160,15 @@ namespace ShoppingList
                 sb.AppendLine(string.Format(clipboardFormat, item.Quantity, item.Category, item.Name));
             }
             return sb.ToString();
+        }
+
+        public void AddItem(Item item)
+        {
+            if (string.IsNullOrEmpty(item.Name))
+                return;
+
+            this.items.Add(item.Name, item);
+            this.UpdateLists();
         }
     }
 }

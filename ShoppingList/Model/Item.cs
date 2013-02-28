@@ -17,7 +17,7 @@ namespace ShoppingList
 
         public Item()
         {
-            // for serializing
+            this.Quantity = 0;
         }
 
         public Item(Item item)

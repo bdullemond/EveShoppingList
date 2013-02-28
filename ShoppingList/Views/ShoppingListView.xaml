@@ -22,7 +22,7 @@
                 <MenuItem Header="Open" Click="LoadButton_OnClick" ></MenuItem>
                 <MenuItem Header="Save" Click="SaveButton_OnClick" IsEnabled="{Binding IsDirty}" ></MenuItem>
                 <Separator></Separator>
-                <MenuItem Header="Settings" Click="SettingsButton_OnClick"></MenuItem>
+                <MenuItem Name="SettingsButton" Header="Settings" Click="SettingsButton_OnClick"></MenuItem>
                 <Separator></Separator>
                 <MenuItem Header="Close" Click="CloseButton_OnClick"></MenuItem>
             </MenuItem>
@@ -81,7 +81,7 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" Content="Edit" HorizontalAlignment="Stretch" Margin="10,10,10,10" VerticalAlignment="Top" Click="EditItemButton_OnClick" >
+                <Button Grid.Column="0" Name="EditItemButton" Content="Edit" HorizontalAlignment="Stretch" Margin="10,10,10,10" VerticalAlignment="Top" Click="EditItemButton_OnClick" >
                     <Button.Style>
                         <Style>
                             <Style.Triggers>
