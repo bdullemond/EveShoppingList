@@ -27,9 +27,6 @@ namespace ShoppingList
 
         public ShipFitting(string fitting, int ammoChargeAmount, int capBoosterChargeAmount) : this()
         {
-            var drones = ItemDataSource.GetDrones();
-            var capBoosterCharges = ItemDataSource.GetCapBoosterCharges();
-
             this.Fitting = fitting;
 
             var lines = fitting.Split(new string[] { "\r\n", "\n" }, StringSplitOptions.None).ToList();
@@ -50,16 +47,31 @@ namespace ShoppingList
                 var tuples = line.Split(',');
                 if (tuples.Count() > 1)
                 {
-                    this.Items.Add(new Item(tuples[0], 1));
-                    this.Items.Add(capBoosterCharges.Contains(tuples[1])
-                        ? new Item(tuples[1], capBoosterChargeAmount)
-                        : new Item(tuples[1], ammoChargeAmount));
+                    var module = tuples[0];
+                    var charge = tuples[1].Trim();
+
+                    this.Items.Add(new Item(module, 1));
+
+
+                    if (ItemDataSource.GetCapBoosterCharges().Contains(charge))
+                    {
+                        this.Items.Add(new Item(charge, capBoosterChargeAmount));
+                    }
+                    else if (ItemDataSource.GetScripts().Contains(charge))
+                    {
+                        this.Items.Add(new Item(charge, 1));
+                    }
+                    else
+                    {
+                        this.Items.Add(new Item(charge, ammoChargeAmount));
+                    }
+                    
                 }
                 else
                 {
                     var itemName = line;
                     var quantity = 1;
-                    if (drones.Any(drone => line.Contains(drone)))
+                    if (ItemDataSource.GetDrones().Any(drone => line.Contains(drone)))
                     {
                         tuples = line.Split('x');
                         itemName = tuples[0];

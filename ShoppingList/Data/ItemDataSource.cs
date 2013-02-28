@@ -18,6 +18,8 @@ namespace ShoppingList
 
         private const string capBoosterChargeCategory = "Cap Booster Charges";
 
+        private const string scriptsCategory = "Scripts";
+
         private static Dictionary<string, string> items;
 
         public static Dictionary<string, string> GetItems()
@@ -76,6 +78,12 @@ namespace ShoppingList
         public static List<string> GetItems(string category)
         {
             var result = (from kvp in GetItems() where kvp.Value == category select kvp.Key).ToList();
+            return result;
+        }
+
+        public static List<string> GetScripts()
+        {
+            var result = (from kvp in GetItems() where kvp.Value == scriptsCategory select kvp.Key).ToList();
             return result;
         }
     }
