@@ -84,6 +84,7 @@
     </ApplicationDefinition>
     <Compile Include="Model\Item.cs" />
     <Compile Include="Data\ItemDataSource.cs" />
+    <Compile Include="Model\Settings.cs" />
     <Compile Include="Views\ItemView.xaml.cs">
       <DependentUpon>ItemView.xaml</DependentUpon>
     </Compile>

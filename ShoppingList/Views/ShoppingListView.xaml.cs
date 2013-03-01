@@ -5,6 +5,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 using Microsoft.Win32;
+using ShoppingList.Model;
 
 namespace ShoppingList
 {
@@ -36,6 +37,10 @@ namespace ShoppingList
         {
             if (this.itemView != null)
                 this.itemView.Close();
+            if (this.settingsView != null)
+                this.settingsView.Close();
+
+            this.viewModel.SaveSettings();
         }
 
 
@@ -67,13 +72,12 @@ namespace ShoppingList
                     return;
             
             // Create an instance of the open file dialog box.
-            var openFileDialog1 = new OpenFileDialog();
-
-            // Set filter options and filter index.
-            openFileDialog1.Filter = "Shopping Lists (.sl)|*.sl|All Files|*.*";
-            openFileDialog1.FilterIndex = 1;
-
-            openFileDialog1.Multiselect = true;
+            var openFileDialog1 = new OpenFileDialog
+                {
+                    Filter = "Shopping Lists (.sl)|*.sl|All Files|*.*", 
+                    FilterIndex = 1, Multiselect = false, 
+                    InitialDirectory = AppDomain.CurrentDomain.BaseDirectory
+                };
 
             // Call the ShowDialog method to show the dialog box.
             bool? userClickedOK = openFileDialog1.ShowDialog();
@@ -90,11 +94,12 @@ namespace ShoppingList
         private void SaveButton_OnClick(object sender, RoutedEventArgs e)
         {
             // Create an instance of the open file dialog box.
-            var saveFileDialog = new SaveFileDialog();
-
-            // Set filter options and filter index.
-            saveFileDialog.Filter = "Shopping Lists (.sl)|*.sl|All Files|*.*";
-            saveFileDialog.FilterIndex = 1;
+            var saveFileDialog = new SaveFileDialog
+                {
+                    Filter = "Shopping Lists (.sl)|*.sl|All Files|*.*", 
+                    FilterIndex = 1,
+                    InitialDirectory = AppDomain.CurrentDomain.BaseDirectory
+                };
 
             // Call the ShowDialog method to show the dialog box.
             bool? userClickedOK = saveFileDialog.ShowDialog();
@@ -109,17 +114,18 @@ namespace ShoppingList
 
         private void CloseButton_OnClick(object sender, RoutedEventArgs e)
         {
+            this.viewModel.SaveSettings();
             this.Close();
         }
 
         private void SettingsButton_OnClick(object sender, RoutedEventArgs e)
         {
             var location = this.SettingsButton.PointToScreen(new Point(0, 0));
-            var settingsTuple = new Tuple<int, int>(this.viewModel.DefaultAmmoAmount, this.viewModel.DefaultCapBoosterAmount);
+            
             var view = new SettingsView()
                 {
                     ShowActivated = false,
-                    DataContext = settingsTuple,
+                    DataContext = this.viewModel.Settings,
                     ResizeMode = ResizeMode.NoResize,
                     WindowStartupLocation =WindowStartupLocation.Manual, Top = location.Y, Left = location.X
                 };
@@ -130,11 +136,10 @@ namespace ShoppingList
 
         private void SettingsViewApplyButton_Click(object sender, RoutedEventArgs e)
         {
-            var settingsTuple = (Tuple<int, int>) this.settingsView.DataContext;
-            if (settingsTuple != null)
+            var settings = (Settings) this.settingsView.DataContext;
+            if (settings != null)
             {
-                this.viewModel.DefaultAmmoAmount = settingsTuple.Item1;
-                this.viewModel.DefaultCapBoosterAmount = settingsTuple.Item2;
+                this.viewModel.Settings = settings;
             }
         }
 

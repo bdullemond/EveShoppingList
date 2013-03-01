@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows;
+using ShoppingList.Model;
 
 
 namespace ShoppingList
@@ -19,17 +20,21 @@ namespace ShoppingList
 
         private void OnDataContextChanged(object sender, DependencyPropertyChangedEventArgs e)
         {
-            var settingsTuple = (Tuple<int, int>) this.DataContext;
-            if (settingsTuple != null)
+            var settings = (Settings) this.DataContext;
+            if (settings != null)
             {
-                this.viewModel = new SettingsViewModel(settingsTuple.Item1, settingsTuple.Item2);
+                this.viewModel = new SettingsViewModel(settings.DefaultAmmoAmount, settings.DefaultCapChargesAmount);
                 this.root.DataContext = this.viewModel;
             }
         }
 
         private void ApplyButton_OnClick(object sender, RoutedEventArgs e)
         {
-            this.DataContext = new Tuple<int, int>(this.viewModel.AmmoAmount, this.viewModel.CapChargesAmount);
+            this.DataContext = new Settings()
+            {
+                DefaultAmmoAmount = this.viewModel.AmmoAmount,
+                DefaultCapChargesAmount = this.viewModel.CapChargesAmount
+            };
             Close();
         }
 

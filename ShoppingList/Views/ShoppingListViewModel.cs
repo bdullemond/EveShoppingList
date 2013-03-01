@@ -5,21 +5,20 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
+using ShoppingList.Model;
 
 namespace ShoppingList
 {
     public class ShoppingListViewModel : ViewModelBase
     {
-       
+        private const string settingsSaveLocation = "settings.config";
         private readonly Dictionary<string, Item> items = new Dictionary<string, Item>();
         private readonly Dictionary<Guid, ShipFitting> shipFittings = new Dictionary<Guid, ShipFitting>(); 
 
         public ObservableCollection<Item> Items { get; private set; }
         public ObservableCollection<ShipFitting> ShipFittings { get; set; }
 
-        public int DefaultAmmoAmount { get; set; }
-
-        public int DefaultCapBoosterAmount { get; set; }
+        public Settings Settings { get; set; }
 
         private bool isDirty;
         public bool IsDirty
@@ -37,16 +36,52 @@ namespace ShoppingList
         {
             this.Items = new ObservableCollection<Item>();
             this.ShipFittings = new ObservableCollection<ShipFitting>();
-            this.DefaultAmmoAmount = 200;
-            this.DefaultCapBoosterAmount = 20;
+            this.Settings = this.LoadSettings();
             this.IsDirty = false;
         }
 
+
         #region methods
+
+        private Settings LoadSettings()
+        {
+            Settings settings;
+
+            var filepath = AppDomain.CurrentDomain.BaseDirectory + settingsSaveLocation;
+
+            if (!File.Exists(filepath))
+                return new Settings();
+
+            var formatter = new XmlSerializer(typeof(Settings));
+            using (var aFile = new FileStream(filepath, FileMode.Open))
+            {
+                var buffer = new byte[aFile.Length];
+                aFile.Read(buffer, 0, (int)aFile.Length);
+                using (var stream = new MemoryStream(buffer))
+                {
+                    settings = (Settings)formatter.Deserialize(stream);
+                }
+
+            }
+
+            return settings;
+        }
+
+        public void SaveSettings()
+        {
+            var filepath = AppDomain.CurrentDomain.BaseDirectory + settingsSaveLocation;
+
+            using (var outFile = File.Create(filepath))
+            {
+                var formatter = new XmlSerializer(typeof(Settings));
+                formatter.Serialize(outFile, this.Settings);
+            }
+        }
+
 
         public void Add(string fitting)
         {
-            var shipFitting = new ShipFitting(fitting, this.DefaultAmmoAmount, this.DefaultCapBoosterAmount);
+            var shipFitting = new ShipFitting(fitting, this.Settings.DefaultAmmoAmount, this.Settings.DefaultCapChargesAmount);
             this.Add(shipFitting);
         }
 
@@ -86,6 +121,15 @@ namespace ShoppingList
                     this.items.Remove(item.Name);
             }
             this.UpdateLists(); 
+        }
+
+        public void AddItem(Item item)
+        {
+            if (string.IsNullOrEmpty(item.Name))
+                return;
+
+            this.items.Add(item.Name, item);
+            this.UpdateLists();
         }
 
         public void UpdateLists()
@@ -147,7 +191,7 @@ namespace ShoppingList
             this.isDirty = false;
         }
 
-        #endregion
+
 
         private const string clipboardFormat = "{0} - {1} \\ {2}";
 
@@ -162,13 +206,7 @@ namespace ShoppingList
             return sb.ToString();
         }
 
-        public void AddItem(Item item)
-        {
-            if (string.IsNullOrEmpty(item.Name))
-                return;
+        #endregion
 
-            this.items.Add(item.Name, item);
-            this.UpdateLists();
-        }
     }
 }
