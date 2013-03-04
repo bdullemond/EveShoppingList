@@ -53,11 +53,11 @@ namespace ShoppingList
                     this.Items.Add(new Item(module, 1));
 
 
-                    if (ItemDataSource.GetCapBoosterCharges().Contains(charge))
+                    if (ItemDataSource.GetCapBoosterCharges().Contains(charge, StringComparer.CurrentCultureIgnoreCase))
                     {
                         this.Items.Add(new Item(charge, capBoosterChargeAmount));
                     }
-                    else if (ItemDataSource.GetScripts().Contains(charge))
+                    else if (ItemDataSource.GetScripts().Contains(charge, StringComparer.CurrentCultureIgnoreCase))
                     {
                         this.Items.Add(new Item(charge, 1));
                     }
@@ -71,11 +71,12 @@ namespace ShoppingList
                 {
                     var itemName = line;
                     var quantity = 1;
-                    if (ItemDataSource.GetDrones().Any(drone => line.Contains(drone)))
+                    if (ItemDataSource.GetDrones().Any(drone => line.ToLower().Contains(drone.ToLower())))
                     {
                         tuples = line.Split('x');
                         itemName = tuples[0];
-                        quantity = int.Parse(tuples[1]);
+                        quantity = tuples.Length > 1 ? int.Parse(tuples[1]) : 1;
+
                     }
 
                     this.Items.Add(new Item(itemName, quantity));

@@ -54,7 +54,13 @@ namespace ShoppingList
                     items = result;
                 }
             }
+
             return items;
+        }
+
+        public static string GetConsistentItemName(string itemName)
+        {
+            return GetItems().Keys.FirstOrDefault(k => k.ToLower() == itemName.ToLower());
         }
 
         public static List<string> GetDrones()

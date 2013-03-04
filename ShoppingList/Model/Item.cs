@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ShoppingList
 {
@@ -29,9 +26,9 @@ namespace ShoppingList
 
         public Item(string name, int quantity)
         {
-            this.Name = name.Trim();
+            this.Name = ItemDataSource.GetConsistentItemName(name.Trim());
             this.Quantity = quantity;
-            this.Category = ItemDataSource.GetItems()[name.Trim()];;
+            this.Category = ItemDataSource.GetItems()[this.Name];
         }
 
         public void Add(int quantity)

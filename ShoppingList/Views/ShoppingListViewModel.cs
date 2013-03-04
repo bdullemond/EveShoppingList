@@ -188,6 +188,7 @@ namespace ShoppingList
         {
             this.shipFittings.Clear();
             this.items.Clear();
+            this.UpdateLists();
             this.isDirty = false;
         }
 

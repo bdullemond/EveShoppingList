@@ -187,6 +187,10 @@ namespace ShoppingList
 
         private void NewButton_OnClick(object sender, RoutedEventArgs e)
         {
+            if (this.viewModel.IsDirty)
+                if (MessageBox.Show("You have unsaved changes. Continue?", "Unsaved Changes", MessageBoxButton.YesNo) == MessageBoxResult.No)
+                    return;
+
             this.viewModel.Clear();
         }
 
