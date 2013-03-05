@@ -79,10 +79,12 @@ namespace ShoppingList
         }
 
 
-        public void Add(string fitting)
+        public ShipFitting Add(string fitting)
         {
             var shipFitting = new ShipFitting(fitting, this.Settings.DefaultAmmoAmount, this.Settings.DefaultCapChargesAmount);
-            this.Add(shipFitting);
+            if (!shipFitting.HasError) 
+                this.Add(shipFitting);
+            return shipFitting;
         }
 
         public void Add(ShipFitting shipFitting)

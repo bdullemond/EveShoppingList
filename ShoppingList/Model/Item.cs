@@ -24,9 +24,14 @@ namespace ShoppingList
             this.Quantity = item.Quantity;
         }
 
+        private const string errorTemplate = "The item: {0} was not found in the item database.";
+        
         public Item(string name, int quantity)
         {
             this.Name = ItemDataSource.GetConsistentItemName(name.Trim());
+            if (this.Name == null)
+                throw new ArgumentOutOfRangeException("name", string.Format(errorTemplate, name));
+
             this.Quantity = quantity;
             this.Category = ItemDataSource.GetItems()[this.Name];
         }

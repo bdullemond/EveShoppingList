@@ -46,8 +46,17 @@ namespace ShoppingList
 
         private void AddButton_OnClick(object sender, RoutedEventArgs e)
         {
-            this.viewModel.Add(this.EntryBox.Text);
-            this.EntryBox.Clear();
+            var shipFit = this.viewModel.Add(this.EntryBox.Text);
+
+            if (shipFit.HasError)
+            {
+                MessageBox.Show(shipFit.ErrorMessage, "Problem Detected", MessageBoxButton.OK);
+            }
+            else
+            {
+                this.EntryBox.Clear();    
+            }
+            
        }
 
         private void RemoveButton_OnClick(object sender, RoutedEventArgs e)
