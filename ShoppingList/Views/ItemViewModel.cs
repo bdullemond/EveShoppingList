@@ -19,15 +19,20 @@ namespace ShoppingList
             var categories = ItemDataSource.GetCategories();
             categories.Sort();
             this.Categories = categories;
-            var items =ItemDataSource.GetItems(item.Category);
-            items.Sort();
-            this.Items = items;
+            this.Items = this.GetSortedItems(item.Category);
         }
 
         public void ChangeCategory(string category)
         {
-            this.Items = ItemDataSource.GetItems(category);
+            this.Items = this.GetSortedItems(category);
             OnPropertyChanged("Items");
+        }
+
+        private List<string> GetSortedItems(string category)
+        {
+            var items = ItemDataSource.GetItems(category);
+            items.Sort();
+            return items;
         }
 
         public void Save(string category, string item)
