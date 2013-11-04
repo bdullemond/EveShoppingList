@@ -95,16 +95,16 @@
   <Item GroupName="Shield" TypeName="Shield Recharger II" />
   <Item GroupName="Shield" TypeName="Small Shield Booster I" />
   <Item GroupName="Shield" TypeName="Small Shield Booster II" />
-  <Item GroupName="Shield" TypeName="Micro Shield Transporter I" />
-  <Item GroupName="Shield" TypeName="Micro Shield Transporter II" />
+  <Item GroupName="Shield" TypeName="Micro Remote Shield Booster I" />
+  <Item GroupName="Shield" TypeName="Micro Remote Shield Booster II" />
   <Item GroupName="Engineering Equipment" TypeName="Basic Capacitor Recharger" />
   <Item GroupName="Propulsion " TypeName="1MN Microwarpdrive I" />
   <Item GroupName="Propulsion " TypeName="1MN Afterburner II" />
   <Item GroupName="Propulsion " TypeName="1MN Afterburner I" />
   <Item GroupName="Propulsion " TypeName="1MN Microwarpdrive II" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Cargo Scanner I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Ship Scanner I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Survey Scanner I" />
+  <Item GroupName="Scanning Equipment" TypeName="Cargo Scanner I" />
+  <Item GroupName="Scanning Equipment" TypeName="Ship Scanner I" />
+  <Item GroupName="Scanning Equipment" TypeName="Survey Scanner I" />
   <Item GroupName="Electronic Warfare" TypeName="Warp Scrambler I" />
   <Item GroupName="Electronic Warfare" TypeName="Warp Scrambler II" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Gatling Pulse Laser I" />
@@ -122,8 +122,8 @@
   <Item GroupName="Turrets &amp; Bays" TypeName="Mega Pulse Laser I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Mega Beam Laser I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Tachyon Beam Laser I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Miner II" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Miner I" />
+  <Item GroupName="Harvest Equipment" TypeName="Miner II" />
+  <Item GroupName="Harvest Equipment" TypeName="Miner I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="125mm Gatling AutoCannon I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="150mm Light AutoCannon I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="200mm AutoCannon I" />
@@ -154,7 +154,7 @@
   <Item GroupName="Hull &amp; Armor " TypeName="Small Hull Repairer I" />
   <Item GroupName="Electronic Warfare" TypeName="Stasis Webifier I" />
   <Item GroupName="Electronic Warfare" TypeName="Stasis Webifier II" />
-  <Item GroupName="Engineering Equipment" TypeName="Small Energy Transfer Array I" />
+  <Item GroupName="Engineering Equipment" TypeName="Small Remote Capacitor Transmitter I" />
   <Item GroupName="Engineering Equipment" TypeName="Small Nosferatu I" />
   <Item GroupName="Engineering Equipment" TypeName="Small Energy Neutralizer I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="75mm Gatling Rail I" />
@@ -182,22 +182,22 @@
   <Item GroupName="Frigates" TypeName="Slasher" />
   <Item GroupName="Frigates" TypeName="Probe" />
   <Item GroupName="Frigates" TypeName="Rifter" />
-  <Item GroupName="Frigates" TypeName="Reaper" />
+  <Item GroupName="Rookie Ships" TypeName="Reaper" />
   <Item GroupName="Frigates" TypeName="Executioner" />
   <Item GroupName="Frigates" TypeName="Inquisitor" />
   <Item GroupName="Frigates" TypeName="Tormentor" />
   <Item GroupName="Frigates" TypeName="Navitas" />
   <Item GroupName="Frigates" TypeName="Tristan" />
   <Item GroupName="Frigates" TypeName="Incursus" />
-  <Item GroupName="Frigates" TypeName="Impairor" />
+  <Item GroupName="Rookie Ships" TypeName="Impairor" />
   <Item GroupName="Frigates" TypeName="Punisher" />
   <Item GroupName="Frigates" TypeName="Breacher" />
   <Item GroupName="Frigates" TypeName="Burst" />
-  <Item GroupName="Frigates" TypeName="Ibis" />
+  <Item GroupName="Rookie Ships" TypeName="Ibis" />
   <Item GroupName="Frigates" TypeName="Kestrel" />
   <Item GroupName="Frigates" TypeName="Merlin" />
   <Item GroupName="Frigates" TypeName="Heron" />
-  <Item GroupName="Frigates" TypeName="Velator" />
+  <Item GroupName="Rookie Ships" TypeName="Velator" />
   <Item GroupName="Frigates" TypeName="Imicus" />
   <Item GroupName="Frigates" TypeName="Atron" />
   <Item GroupName="Frigates" TypeName="Maulus" />
@@ -227,21 +227,21 @@
   <Item GroupName="Battleships" TypeName="Typhoon" />
   <Item GroupName="Battleships" TypeName="Dominix" />
   <Item GroupName="Industrial Ships" TypeName="Badger" />
-  <Item GroupName="Industrial Ships" TypeName="Badger Mark II" />
-  <Item GroupName="Industrial Ships" TypeName="Iteron" />
+  <Item GroupName="Industrial Ships" TypeName="Tayra" />
+  <Item GroupName="Industrial Ships" TypeName="Nereus" />
   <Item GroupName="Industrial Ships" TypeName="Hoarder" />
   <Item GroupName="Industrial Ships" TypeName="Mammoth" />
   <Item GroupName="Industrial Ships" TypeName="Wreathe" />
-  <Item GroupName="Industrial Ships" TypeName="Iteron Mark II" />
-  <Item GroupName="Industrial Ships" TypeName="Iteron Mark III" />
-  <Item GroupName="Industrial Ships" TypeName="Iteron Mark IV" />
+  <Item GroupName="Industrial Ships" TypeName="Kryos" />
+  <Item GroupName="Industrial Ships" TypeName="Epithal" />
+  <Item GroupName="Industrial Ships" TypeName="Miasmos" />
   <Item GroupName="Industrial Ships" TypeName="Iteron Mark V" />
   <Item GroupName="Capital Ships" TypeName="Erebus" />
   <Item GroupName="Shuttles" TypeName="Caldari Shuttle" />
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Auto Targeting System I" />
   <Item GroupName="Hull &amp; Armor " TypeName="Small Armor Repairer II" />
   <Item GroupName="Engineering Equipment" TypeName="Small Capacitor Battery I" />
-  <Item GroupName="Engineering Equipment" TypeName="Small Energy Transfer Array II" />
+  <Item GroupName="Engineering Equipment" TypeName="Small Remote Capacitor Transmitter II" />
   <Item GroupName="Propulsion " TypeName="Basic Overdrive Injector System" />
   <Item GroupName="Hull &amp; Armor " TypeName="Basic EM Plating" />
   <Item GroupName="Engineering Equipment" TypeName="Cap Recharger I" />
@@ -315,7 +315,7 @@
   <Item GroupName="Missiles" TypeName="Mjolnir Auto-Targeting Cruise Missile I" />
   <Item GroupName="Missiles" TypeName="Nova Auto-Targeting Cruise Missile I" />
   <Item GroupName="Missiles" TypeName="Inferno Auto-Targeting Cruise Missile I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Ship Scanner II" />
+  <Item GroupName="Scanning Equipment" TypeName="Ship Scanner II" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Rapid Light Missile Launcher I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Rapid Light Missile Launcher II" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Basic Heat Sink" />
@@ -356,13 +356,13 @@
   <Item GroupName="Engineering Equipment" TypeName="Large Capacitor Battery I" />
   <Item GroupName="Engineering Equipment" TypeName="Medium Capacitor Booster II" />
   <Item GroupName="Engineering Equipment" TypeName="Cap Recharger II" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Cargo Scanner II" />
+  <Item GroupName="Scanning Equipment" TypeName="Cargo Scanner II" />
   <Item GroupName="Hull &amp; Armor " TypeName="Damage Control I" />
   <Item GroupName="Hull &amp; Armor " TypeName="Damage Control II" />
   <Item GroupName="Shield" TypeName="Gistum C-Type Adaptive Invulnerability Field" />
   <Item GroupName="Special Edition Ships" TypeName="Zephyr" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Tracking Link I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Tracking Link II" />
+  <Item GroupName="Turrets &amp; Bays" TypeName="Remote Tracking Computer I" />
+  <Item GroupName="Turrets &amp; Bays" TypeName="Remote Tracking Computer II" />
   <Item GroupName="Electronic Warfare" TypeName="Tracking Disruptor I" />
   <Item GroupName="Electronic Warfare" TypeName="Tracking Disruptor II" />
   <Item GroupName="Electronic Warfare" TypeName="ECM Burst II" />
@@ -394,7 +394,7 @@
   <Item GroupName="Shield" TypeName="EM Ward Field II" />
   <Item GroupName="Shield" TypeName="Thermic Dissipation Field II" />
   <Item GroupName="Shield" TypeName="Shield Power Relay I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Survey Scanner II" />
+  <Item GroupName="Scanning Equipment" TypeName="Survey Scanner II" />
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Passive Targeter II" />
   <Item GroupName="Hull &amp; Armor " TypeName="Small Hull Repairer II" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Heat Sink I" />
@@ -514,11 +514,11 @@
   <Item GroupName="Hull &amp; Armor " TypeName="Medium Armor Repairer II" />
   <Item GroupName="Special Edition Ships" TypeName="Echelon" />
   <Item GroupName="Hull &amp; Armor " TypeName="Capital Inefficient Armor Repair Unit" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Capital Coaxial Regenerative Projector" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Capital Coaxial Remote Armor Repairer" />
   <Item GroupName="Hull &amp; Armor " TypeName="Large Armor Repairer I" />
   <Item GroupName="Hull &amp; Armor " TypeName="Large Armor Repairer II" />
   <Item GroupName="Shield" TypeName="Capital Neutron Saturation Injector I" />
-  <Item GroupName="Shield" TypeName="Capital Murky Shield Screen Transmitter I" />
+  <Item GroupName="Shield" TypeName="Capital Murky Remote Shield Booster" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Limited Mega Ion Siege Blaster I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Dual 1000mm 'Scout' Accelerator Cannon" />
   <Item GroupName="Cap Booster Charges" TypeName="Cap Booster 75" />
@@ -533,18 +533,18 @@
   <Item GroupName="Engineering Equipment" TypeName="Small Capacitor Booster II" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Quad 3500mm Gallium Cannon" />
   <Item GroupName="Turrets &amp; Bays" TypeName="6x2500mm Heavy Gallium Repeating Cannon" />
-  <Item GroupName="Engineering Equipment" TypeName="Capital Murky Energy Transmitter I" />
+  <Item GroupName="Engineering Equipment" TypeName="Capital Murky Remote Capacitor Transmitter" />
   <Item GroupName="Engineering Equipment" TypeName="Heavy Capacitor Booster I" />
   <Item GroupName="Engineering Equipment" TypeName="Heavy Capacitor Booster II" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Purloined Sansha Codebreaker" />
-  <Item GroupName="Shield" TypeName="Small Shield Transporter I" />
-  <Item GroupName="Shield" TypeName="Small Shield Transporter II" />
-  <Item GroupName="Shield" TypeName="Medium Shield Transporter I" />
-  <Item GroupName="Shield" TypeName="Medium Shield Transporter II" />
-  <Item GroupName="Shield" TypeName="Large Shield Transporter I" />
-  <Item GroupName="Shield" TypeName="Large Shield Transporter II" />
-  <Item GroupName="Shield" TypeName="Capital Shield Transporter I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Civilian Miner" />
+  <Item GroupName="Scanning Equipment" TypeName="Purloined Sansha Data Analyzer" />
+  <Item GroupName="Shield" TypeName="Small Remote Shield Booster I" />
+  <Item GroupName="Shield" TypeName="Small Remote Shield Booster II" />
+  <Item GroupName="Shield" TypeName="Medium Remote Shield Booster I" />
+  <Item GroupName="Shield" TypeName="Medium Remote Shield Booster II" />
+  <Item GroupName="Shield" TypeName="Large Remote Shield Booster I" />
+  <Item GroupName="Shield" TypeName="Large Remote Shield Booster II" />
+  <Item GroupName="Shield" TypeName="Capital Remote Shield Booster I" />
+  <Item GroupName="Harvest Equipment" TypeName="Civilian Miner" />
   <Item GroupName="Hull &amp; Armor " TypeName="Medium Hull Repairer I" />
   <Item GroupName="Hull &amp; Armor " TypeName="Medium Hull Repairer II" />
   <Item GroupName="Hull &amp; Armor " TypeName="Large Hull Repairer I" />
@@ -580,11 +580,12 @@
   <Item GroupName="Smartbombs" TypeName="Large Proton Smartbomb II" />
   <Item GroupName="Smartbombs" TypeName="Large Graviton Smartbomb I" />
   <Item GroupName="Smartbombs" TypeName="Large Graviton Smartbomb II" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Large Remote Hull Repair System II" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Large Remote Hull Repairer II" />
   <Item GroupName="Smartbombs" TypeName="Large Plasma Smartbomb I" />
   <Item GroupName="Smartbombs" TypeName="Large Plasma Smartbomb II" />
   <Item GroupName="Smartbombs" TypeName="Large EMP Smartbomb I" />
   <Item GroupName="Smartbombs" TypeName="Large EMP Smartbomb II" />
+  <Item GroupName="Special Edition Ships" TypeName="Scorpion Ishukone Watch" />
   <Item GroupName="Electronic Warfare" TypeName="RADAR Backup Array I" />
   <Item GroupName="Electronic Warfare" TypeName="RADAR Backup Array II" />
   <Item GroupName="Electronic Warfare" TypeName="X5 Prototype Engine Enervator" />
@@ -597,8 +598,8 @@
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Capital Tractor Beam II" />
   <Item GroupName="Engineering Equipment" TypeName="Micro Auxiliary Power Core II" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Bomb Launcher II" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Core Probe Launcher II" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Expanded Probe Launcher II" />
+  <Item GroupName="Scanning Equipment" TypeName="Core Probe Launcher II" />
+  <Item GroupName="Scanning Equipment" TypeName="Expanded Probe Launcher II" />
   <Item GroupName="Fleet Assistance Modules" TypeName="Armored Warfare Link - Damage Control II" />
   <Item GroupName="Fleet Assistance Modules" TypeName="Armored Warfare Link - Passive Defense II" />
   <Item GroupName="Fleet Assistance Modules" TypeName="Armored Warfare Link - Rapid Repair II" />
@@ -616,8 +617,8 @@
   <Item GroupName="Fleet Assistance Modules" TypeName="Skirmish Warfare Link - Rapid Deployment II" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Siege Module II" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Triage Module II" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Medium Remote Hull Repair System II" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Small Remote Hull Repair System II" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Medium Remote Hull Repairer II" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Small Remote Hull Repairer II" />
   <Item GroupName="Battlecruisers" TypeName="Oracle" />
   <Item GroupName="Battlecruisers" TypeName="Naga" />
   <Item GroupName="Battlecruisers" TypeName="Talos" />
@@ -627,9 +628,9 @@
   <Item GroupName="Shield" TypeName="Pithum A-Type Adaptive Invulnerability Field" />
   <Item GroupName="Shield" TypeName="Pithum B-Type Adaptive Invulnerability Field" />
   <Item GroupName="Shield" TypeName="Pithum C-Type Adaptive Invulnerability Field" />
-  <Item GroupName="Special Edition Ships" TypeName="Iteron Mark IV Quafe Ultra Edition" />
+  <Item GroupName="Special Edition Ships" TypeName="Miasmos Quafe Ultra Edition" />
   <Item GroupName="Propulsion " TypeName="Large Micro Jump Drive" />
-  <Item GroupName="Special Edition Ships" TypeName="Iteron Mark IV Quafe Ultramarine Edition" />
+  <Item GroupName="Special Edition Ships" TypeName="Miasmos Quafe Ultramarine Edition" />
   <Item GroupName="Shield" TypeName="Large Ancillary Shield Booster" />
   <Item GroupName="Drone Upgrades" TypeName="Drone Damage Amplifier I" />
   <Item GroupName="Rigs" TypeName="Medium Processor Overclocking Unit I" />
@@ -691,10 +692,10 @@
   <Item GroupName="Engineering Equipment" TypeName="Heavy Brief Capacitor Overcharge I" />
   <Item GroupName="Engineering Equipment" TypeName="Heavy Electrochemical Capacitor Booster I" />
   <Item GroupName="Engineering Equipment" TypeName="Heavy Tapered Capacitor Infusion I" />
-  <Item GroupName="Engineering Equipment" TypeName="Partial E95a Power Conduit" />
-  <Item GroupName="Engineering Equipment" TypeName="Murky Energy Transmitter I" />
-  <Item GroupName="Engineering Equipment" TypeName="'Regard' Power Projector" />
-  <Item GroupName="Engineering Equipment" TypeName="Asymmetric Energy Succor I" />
+  <Item GroupName="Engineering Equipment" TypeName="Small Partial E95a Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Small Murky Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="'Regard' Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Small Asymmetric Remote Capacitor Transmitter" />
   <Item GroupName="Engineering Equipment" TypeName="E5 Prototype Energy Vampire" />
   <Item GroupName="Engineering Equipment" TypeName="Small 'Knave' Energy Drain" />
   <Item GroupName="Engineering Equipment" TypeName="Small Diminishing Power System Drain I" />
@@ -707,18 +708,18 @@
   <Item GroupName="Turrets &amp; Bays" TypeName="Dual Afocal Pulse Maser I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Dual Modulated Pulse Energy Beam I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Dual Anode Pulse Particle Stream I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="EP-R Argon Ion Basic Excavation Pulse" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Single Diode Basic Mining Laser" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Xenon Basic Drilling Beam" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Rubin Basic Particle Bore Stream" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="EP-S Gaussian Excavation Pulse" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Dual Diode Mining Laser I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="XeCl Drilling Beam I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Cu Vapor Particle Bore Stream I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="F-23 Reciprocal Sensor Cluster Link" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Connected Scanning CPU Uplink" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Coadjunct Linked Sensor Array I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Linked Sensor Network" />
+  <Item GroupName="Harvest Equipment" TypeName="EP-R Argon Ion Basic Excavation Pulse" />
+  <Item GroupName="Harvest Equipment" TypeName="Single Diode Basic Mining Laser" />
+  <Item GroupName="Harvest Equipment" TypeName="Xenon Basic Drilling Beam" />
+  <Item GroupName="Harvest Equipment" TypeName="Rubin Basic Particle Bore Stream" />
+  <Item GroupName="Harvest Equipment" TypeName="EP-S Gaussian Excavation Pulse" />
+  <Item GroupName="Harvest Equipment" TypeName="Dual Diode Mining Laser I" />
+  <Item GroupName="Harvest Equipment" TypeName="XeCl Drilling Beam I" />
+  <Item GroupName="Harvest Equipment" TypeName="Cu Vapor Particle Bore Stream I" />
+  <Item GroupName="Electronics and Sensor Upgrades" TypeName="F-23 Reciprocal Remote Sensor Booster" />
+  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Connected Remote Sensor Booster" />
+  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Coadjunct Linked Remote Sensor Booster" />
+  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Linked Remote Sensor Booster" />
   <Item GroupName="Electronic Warfare" TypeName="Low Frequency Sensor Suppressor I" />
   <Item GroupName="Electronic Warfare" TypeName="Indirect Scanning Dampening Unit I" />
   <Item GroupName="Electronic Warfare" TypeName="Kapteyn Sensor Array Inhibitor I" />
@@ -727,10 +728,10 @@
   <Item GroupName="Electronic Warfare" TypeName="Balmer Series Tracking Disruptor I" />
   <Item GroupName="Electronic Warfare" TypeName="'Abandon' Tracking Disruptor I" />
   <Item GroupName="Electronic Warfare" TypeName="DDO Photometry Tracking Disruptor I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="F-293 Nutation Target Coupling" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Phase Switching Targeting Nexus" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="'Prayer' Targeting Annex I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Alfven Surface Targeting Annex I" />
+  <Item GroupName="Turrets &amp; Bays" TypeName="F-293 Nutation Remote Tracking Computer" />
+  <Item GroupName="Turrets &amp; Bays" TypeName="Phase Switching Remote Tracking Computer" />
+  <Item GroupName="Turrets &amp; Bays" TypeName="'Prayer' Remote Tracking Computer" />
+  <Item GroupName="Turrets &amp; Bays" TypeName="Alfven Surface Remote Tracking Computer" />
   <Item GroupName="Electronic Warfare" TypeName="1Z-3 Subversive ECM Eruption" />
   <Item GroupName="Electronic Warfare" TypeName="'Deluge' ECM Burst I" />
   <Item GroupName="Electronic Warfare" TypeName="'Rash' ECM Emission I" />
@@ -839,10 +840,10 @@
   <Item GroupName="Engineering Equipment" TypeName="Medium Peroxide Capacitor Power Cell" />
   <Item GroupName="Engineering Equipment" TypeName="Medium Ohm Capacitor Reserve I" />
   <Item GroupName="Engineering Equipment" TypeName="Medium F-4a Ld-Sulfate Capacitor Charge Unit" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Surface Cargo Scanner I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Prototype Freight Sensors" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Interior Type-E Cargo Identifier" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="PL-0 Shipment Probe" />
+  <Item GroupName="Scanning Equipment" TypeName="Surface Cargo Scanner I" />
+  <Item GroupName="Scanning Equipment" TypeName="Prototype Freight Sensors" />
+  <Item GroupName="Scanning Equipment" TypeName="Interior Type-E Cargo Identifier" />
+  <Item GroupName="Scanning Equipment" TypeName="PL-0 Shipment Probe" />
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Supplemental Scanning CPU I" />
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Prototype Sensor Booster" />
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Alumel-Wired Sensor Augmentation" />
@@ -915,14 +916,14 @@
   <Item GroupName="Shield" TypeName="Supplemental Screen Generator I" />
   <Item GroupName="Shield" TypeName="'Benefactor' Ward Reconstructor" />
   <Item GroupName="Shield" TypeName="Passive Barrier Compensator I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Ta3 Perfunctory Vessel Probe" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Rudimentary Ship Scanner I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Speculative Ship Identifier I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Practical Type-E Ship Probe" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="ML-3 Amphilotite Mining Probe" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Residual Survey Scanner I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Rock-Scanning Sensor Array I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="'Dactyl' Type-E Asteroid Analyzer" />
+  <Item GroupName="Scanning Equipment" TypeName="Ta3 Perfunctory Vessel Probe" />
+  <Item GroupName="Scanning Equipment" TypeName="Rudimentary Ship Scanner I" />
+  <Item GroupName="Scanning Equipment" TypeName="Speculative Ship Identifier I" />
+  <Item GroupName="Scanning Equipment" TypeName="Practical Type-E Ship Probe" />
+  <Item GroupName="Scanning Equipment" TypeName="ML-3 Amphilotite Mining Probe" />
+  <Item GroupName="Scanning Equipment" TypeName="Residual Survey Scanner I" />
+  <Item GroupName="Scanning Equipment" TypeName="Rock-Scanning Sensor Array I" />
+  <Item GroupName="Scanning Equipment" TypeName="'Dactyl' Type-E Asteroid Analyzer" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Dual Modal Light Laser I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Dual Afocal Light Maser I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Dual Modulated Light Energy Beam I" />
@@ -1139,22 +1140,22 @@
   <Item GroupName="Shield" TypeName="Medium F-S9 Regolith Shield Induction" />
   <Item GroupName="Shield" TypeName="Small F-S9 Regolith Shield Induction" />
   <Item GroupName="Shield" TypeName="Large F-S9 Regolith Shield Induction" />
-  <Item GroupName="Shield" TypeName="Small Murky Shield Screen Transmitter I" />
-  <Item GroupName="Shield" TypeName="Small 'Atonement' Ward Projector" />
-  <Item GroupName="Shield" TypeName="Small Asymmetric Barrier Transpositioner I" />
-  <Item GroupName="Shield" TypeName="Small S95a Partial Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Medium Murky Shield Screen Transmitter I" />
-  <Item GroupName="Shield" TypeName="Medium 'Atonement' Ward Projector" />
-  <Item GroupName="Shield" TypeName="Medium Asymmetric Barrier Transpositioner I" />
-  <Item GroupName="Shield" TypeName="Medium S95a Partial Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Micro Murky Shield Screen Transmitter I" />
-  <Item GroupName="Shield" TypeName="Micro 'Atonement' Ward Projector" />
-  <Item GroupName="Shield" TypeName="Micro Asymmetric Barrier Transpositioner I" />
-  <Item GroupName="Shield" TypeName="Micro S95a Partial Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Large Murky Shield Screen Transmitter I" />
-  <Item GroupName="Shield" TypeName="Large 'Atonement' Ward Projector" />
-  <Item GroupName="Shield" TypeName="Large Asymmetric Barrier Transpositioner I" />
-  <Item GroupName="Shield" TypeName="Large S95a Partial Shield Transporter" />
+  <Item GroupName="Shield" TypeName="Small Murky Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Small 'Atonement' Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Small Asymmetric Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Small S95a Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Medium Murky Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Medium 'Atonement' Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Medium Asymmetric Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Medium S95a Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Micro Murky Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Micro 'Atonement' Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Micro Asymmetric Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Micro S95a Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Large Murky Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Large 'Atonement' Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Large Asymmetric Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Large S95a Remote Shield Booster" />
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Nanomechanical CPU Enhancer" />
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Nanoelectrical Co-Processor" />
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Photonic CPU Enhancer" />
@@ -1377,9 +1378,9 @@
   <Item GroupName="Hull &amp; Armor " TypeName="200mm Reinforced Rolled Tungsten Plates I" />
   <Item GroupName="Hull &amp; Armor " TypeName="200mm Reinforced Crystalline Carbonide Plates I" />
   <Item GroupName="Hull &amp; Armor " TypeName="200mm Reinforced Nanofiber Plates I" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Small Remote Armor Repair System I" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Medium Remote Armor Repair System I" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Large Remote Armor Repair System I" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Small Remote Armor Repairer I" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Medium Remote Armor Repairer I" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Large Remote Armor Repairer I" />
   <Item GroupName="Frigates" TypeName="Vengeance" />
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Prototype Cloaking Device I" />
   <Item GroupName="Frigates" TypeName="Wolf" />
@@ -1439,12 +1440,12 @@
   <Item GroupName="Propulsion " TypeName="100MN Afterburner II" />
   <Item GroupName="Propulsion " TypeName="10MN Microwarpdrive II" />
   <Item GroupName="Propulsion " TypeName="100MN Microwarpdrive II" />
-  <Item GroupName="Engineering Equipment" TypeName="Large Energy Transfer Array II" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Deep Core Mining Laser I" />
-  <Item GroupName="Engineering Equipment" TypeName="Medium Energy Transfer Array I" />
-  <Item GroupName="Engineering Equipment" TypeName="Capital Energy Transfer Array I" />
-  <Item GroupName="Engineering Equipment" TypeName="Medium Energy Transfer Array II" />
-  <Item GroupName="Engineering Equipment" TypeName="Large Energy Transfer Array I" />
+  <Item GroupName="Engineering Equipment" TypeName="Large Remote Capacitor Transmitter II" />
+  <Item GroupName="Harvest Equipment" TypeName="Deep Core Mining Laser I" />
+  <Item GroupName="Engineering Equipment" TypeName="Medium Remote Capacitor Transmitter I" />
+  <Item GroupName="Engineering Equipment" TypeName="Capital Remote Capacitor Transmitter I" />
+  <Item GroupName="Engineering Equipment" TypeName="Medium Remote Capacitor Transmitter II" />
+  <Item GroupName="Engineering Equipment" TypeName="Large Remote Capacitor Transmitter I" />
   <Item GroupName="Engineering Equipment" TypeName="Medium Nosferatu I" />
   <Item GroupName="Engineering Equipment" TypeName="Medium Nosferatu II" />
   <Item GroupName="Engineering Equipment" TypeName="Heavy Nosferatu I" />
@@ -1760,7 +1761,7 @@
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Dread Guristas Cloaking Device" />
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Shadow Serpentis Sensor Booster" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Shadow Serpentis Tracking Computer" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Shadow Serpentis Tracking Link" />
+  <Item GroupName="Turrets &amp; Bays" TypeName="Shadow Serpentis Remote Tracking Computer" />
   <Item GroupName="Electronic Warfare" TypeName="Dark Blood Warp Disruptor" />
   <Item GroupName="Electronic Warfare" TypeName="Domination Warp Disruptor" />
   <Item GroupName="Electronic Warfare" TypeName="Dread Guristas Warp Disruptor" />
@@ -2444,7 +2445,7 @@
   <Item GroupName="Smartbombs" TypeName="Imperial Navy Medium EMP Smartbomb" />
   <Item GroupName="Smartbombs" TypeName="Imperial Navy Large EMP Smartbomb" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Republic Fleet Tracking Enhancer" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Federation Navy Tracking Link" />
+  <Item GroupName="Turrets &amp; Bays" TypeName="Federation Navy Remote Tracking Computer" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Republic Fleet 125mm Autocannon" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Republic Fleet 1200mm Artillery" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Republic Fleet 1400mm Howitzer Artillery" />
@@ -2475,7 +2476,7 @@
   <Item GroupName="Destroyers" TypeName="Cormorant" />
   <Item GroupName="Destroyers" TypeName="Catalyst" />
   <Item GroupName="Destroyers" TypeName="Thrasher" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Ice Harvester I" />
+  <Item GroupName="Harvest Equipment" TypeName="Ice Harvester I" />
   <Item GroupName="Propulsion " TypeName="'Accord' Core Compensation" />
   <Item GroupName="Propulsion " TypeName="'Repose' Core Compensation" />
   <Item GroupName="Propulsion " TypeName="'Stoic' Core Equalizer I" />
@@ -2544,18 +2545,18 @@
   <Item GroupName="Hull &amp; Armor " TypeName="Limited Energized Thermic Membrane I" />
   <Item GroupName="Hull &amp; Armor " TypeName="Experimental Energized Thermic Membrane I" />
   <Item GroupName="Hull &amp; Armor " TypeName="Prototype Energized Thermic Membrane I" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Small I-ax Regenerative Projector" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Small Coaxial Regenerative Projector" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Small 'Arup' Remote Bulwark Reconstruction" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Small 'Solace' Remote Bulwark Reconstruction" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Medium I-ax Regenerative Projector" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Medium Coaxial Regenerative Projector" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Medium 'Arup' Remote Bulwark Reconstruction" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Medium 'Solace' Remote Bulwark Reconstruction" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Large I-ax Regenerative Projector" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Large Coaxial Regenerative Projector" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Large 'Arup' Remote Bulwark Reconstruction" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Large 'Solace' Remote Bulwark Reconstruction" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Small I-ax Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Small Coaxial Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Small 'Arup' Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Small 'Solace' Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Medium I-ax Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Medium Coaxial Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Medium 'Arup' Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Medium 'Solace' Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Large I-ax Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Large Coaxial Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Large 'Arup' Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Large 'Solace' Remote Armor Repairer" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Cross-linked Bolt Array I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Muon Coil Bolt Array I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Multiphasic Bolt Array I" />
@@ -2568,14 +2569,14 @@
   <Item GroupName="Engineering Equipment" TypeName="Heavy 'Gremlin' Power Core Disruptor I" />
   <Item GroupName="Engineering Equipment" TypeName="500W Infectious Power System Malfunction" />
   <Item GroupName="Engineering Equipment" TypeName="Heavy Unstable Power Fluctuator I" />
-  <Item GroupName="Engineering Equipment" TypeName="Large Asymmetric Energy Succor I" />
-  <Item GroupName="Engineering Equipment" TypeName="Large Murky Energy Transmitter I" />
-  <Item GroupName="Engineering Equipment" TypeName="Large Partial E95c Power Conduit" />
-  <Item GroupName="Engineering Equipment" TypeName="Large 'Regard' Power Projector" />
-  <Item GroupName="Engineering Equipment" TypeName="Medium Asymmetric Energy Succor I" />
-  <Item GroupName="Engineering Equipment" TypeName="Medium Murky Energy Transmitter I" />
-  <Item GroupName="Engineering Equipment" TypeName="Medium Partial E95b Power Conduit" />
-  <Item GroupName="Engineering Equipment" TypeName="Medium 'Regard' Power Projector" />
+  <Item GroupName="Engineering Equipment" TypeName="Large Asymmetric Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Large Murky Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Large Partial E95c Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Large 'Regard' Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Medium Asymmetric Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Medium Murky Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Medium Partial E95b Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Medium 'Regard' Remote Capacitor Transmitter" />
   <Item GroupName="Engineering Equipment" TypeName="Heavy 'Ghoul' Energy Siphon I" />
   <Item GroupName="Engineering Equipment" TypeName="Heavy 'Knave' Energy Drain" />
   <Item GroupName="Engineering Equipment" TypeName="E500 Prototype Energy Vampire" />
@@ -2607,7 +2608,7 @@
   <Item GroupName="Mining Barges" TypeName="Covetor" />
   <Item GroupName="Mining Barges" TypeName="Retriever" />
   <Item GroupName="Mining Barges" TypeName="Procurer" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Strip Miner I" />
+  <Item GroupName="Harvest Equipment" TypeName="Strip Miner I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Republic Fleet Rapid Light Missile Launcher" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Republic Fleet Cruise Missile Launcher" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Republic Fleet Heavy Missile Launcher" />
@@ -2702,7 +2703,7 @@
   <Item GroupName="Missiles" TypeName="Scourge Citadel Torpedo" />
   <Item GroupName="Missiles" TypeName="Inferno Citadel Torpedo" />
   <Item GroupName="Missiles" TypeName="Nova Citadel Torpedo" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Modulated Strip Miner II" />
+  <Item GroupName="Harvest Equipment" TypeName="Modulated Strip Miner II" />
   <Item GroupName="Battleships" TypeName="Rattlesnake" />
   <Item GroupName="Battleships" TypeName="Bhaalgorn" />
   <Item GroupName="Cruisers" TypeName="Ashimmu" />
@@ -2711,7 +2712,7 @@
   <Item GroupName="Frigates" TypeName="Daredevil" />
   <Item GroupName="Frigates" TypeName="Worm" />
   <Item GroupName="Frigates" TypeName="Dramiel" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Core Probe Launcher I" />
+  <Item GroupName="Scanning Equipment" TypeName="Core Probe Launcher I" />
   <Item GroupName="Mining Crystals" TypeName="Arkonor Mining Crystal I" />
   <Item GroupName="Mining Crystals" TypeName="Bistot Mining Crystal I" />
   <Item GroupName="Mining Crystals" TypeName="Crokite Mining Crystal I" />
@@ -2728,7 +2729,7 @@
   <Item GroupName="Mining Crystals" TypeName="Scordite Mining Crystal I" />
   <Item GroupName="Mining Crystals" TypeName="Spodumain Mining Crystal I" />
   <Item GroupName="Mining Crystals" TypeName="Veldspar Mining Crystal I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Modulated Deep Core Miner II" />
+  <Item GroupName="Harvest Equipment" TypeName="Modulated Deep Core Miner II" />
   <Item GroupName="Mining Crystals" TypeName="Arkonor Mining Crystal II" />
   <Item GroupName="Mining Crystals" TypeName="Bistot Mining Crystal II" />
   <Item GroupName="Mining Crystals" TypeName="Crokite Mining Crystal II" />
@@ -2748,7 +2749,7 @@
   <Item GroupName="Probes" TypeName="Quest Survey Probe I" />
   <Item GroupName="Probes" TypeName="Discovery Survey Probe I" />
   <Item GroupName="Probes" TypeName="Gaze Survey Probe I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Expanded Probe Launcher I" />
+  <Item GroupName="Scanning Equipment" TypeName="Expanded Probe Launcher I" />
   <Item GroupName="Propulsion " TypeName="Gistii C-Type 1MN Afterburner" />
   <Item GroupName="Propulsion " TypeName="Gistum C-Type 10MN Afterburner" />
   <Item GroupName="Propulsion " TypeName="Gist C-Type 100MN Afterburner" />
@@ -2905,12 +2906,12 @@
   <Item GroupName="Hull &amp; Armor " TypeName="Core X-Type Armor Explosive Hardener" />
   <Item GroupName="Hull &amp; Armor " TypeName="Core X-Type Armor Kinetic Hardener" />
   <Item GroupName="Hull &amp; Armor " TypeName="Core X-Type Armor Thermic Hardener" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Coreli C-Type Small Remote Armor Repair System" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Coreli B-Type Small Remote Armor Repair System" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Coreli A-Type Small Remote Armor Repair System" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Corelum C-Type Medium Remote Armor Repair System" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Corelum B-Type Medium Remote Armor Repair System" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Corelum A-Type Medium Remote Armor Repair System" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Coreli C-Type Small Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Coreli B-Type Small Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Coreli A-Type Small Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Corelum C-Type Medium Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Corelum B-Type Medium Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Corelum A-Type Medium Remote Armor Repairer" />
   <Item GroupName="Hull &amp; Armor " TypeName="Corpii C-Type Small Armor Repairer" />
   <Item GroupName="Hull &amp; Armor " TypeName="Corpii B-Type Small Armor Repairer" />
   <Item GroupName="Hull &amp; Armor " TypeName="Corpii A-Type Small Armor Repairer" />
@@ -2941,24 +2942,24 @@
   <Item GroupName="Hull &amp; Armor " TypeName="Centus A-Type Large Armor Repairer" />
   <Item GroupName="Hull &amp; Armor " TypeName="Corpus X-Type Large Armor Repairer" />
   <Item GroupName="Hull &amp; Armor " TypeName="Centus X-Type Large Armor Repairer" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Centii C-Type Small Remote Armor Repair System" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Centii B-Type Small Remote Armor Repair System" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Centii A-Type Small Remote Armor Repair System" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Centum C-Type Medium Remote Armor Repair System" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Centum B-Type Medium Remote Armor Repair System" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Centum A-Type Medium Remote Armor Repair System" />
-  <Item GroupName="Engineering Equipment" TypeName="Corpii C-Type Small Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Corpii B-Type Small Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Corpii A-Type Small Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Centii C-Type Small Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Centii B-Type Small Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Centii A-Type Small Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Corpum C-Type Medium Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Corpum B-Type Medium Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Corpum A-Type Medium Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Centum C-Type Medium Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Centum B-Type Medium Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Centum A-Type Medium Energy Transfer Array" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Centii C-Type Small Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Centii B-Type Small Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Centii A-Type Small Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Centum C-Type Medium Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Centum B-Type Medium Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Centum A-Type Medium Remote Armor Repairer" />
+  <Item GroupName="Engineering Equipment" TypeName="Corpii C-Type Small Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Corpii B-Type Small Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Corpii A-Type Small Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Centii C-Type Small Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Centii B-Type Small Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Centii A-Type Small Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Corpum C-Type Medium Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Corpum B-Type Medium Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Corpum A-Type Medium Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Centum C-Type Medium Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Centum B-Type Medium Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Centum A-Type Medium Remote Capacitor Transmitter" />
   <Item GroupName="Engineering Equipment" TypeName="Corpii C-Type Small Nosferatu" />
   <Item GroupName="Engineering Equipment" TypeName="Corpii B-Type Small Nosferatu" />
   <Item GroupName="Engineering Equipment" TypeName="Corpii A-Type Small Nosferatu" />
@@ -2969,18 +2970,18 @@
   <Item GroupName="Engineering Equipment" TypeName="Corpus B-Type Heavy Nosferatu" />
   <Item GroupName="Engineering Equipment" TypeName="Corpus A-Type Heavy Nosferatu" />
   <Item GroupName="Engineering Equipment" TypeName="Corpus X-Type Heavy Nosferatu" />
-  <Item GroupName="Shield" TypeName="Gistii C-Type Small Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Gistii B-Type Small Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Gistii A-Type Small Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Pithi C-Type Small Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Pithi B-Type Small Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Pithi A-Type Small Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Gistum C-Type Medium Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Gistum B-Type Medium Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Gistum A-Type Medium Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Pithum C-Type Medium Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Pithum B-Type Medium Shield Transporter" />
-  <Item GroupName="Shield" TypeName="Pithum A-Type Medium Shield Transporter" />
+  <Item GroupName="Shield" TypeName="Gistii C-Type Small Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Gistii B-Type Small Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Gistii A-Type Small Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Pithi C-Type Small Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Pithi B-Type Small Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Pithi A-Type Small Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Gistum C-Type Medium Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Gistum B-Type Medium Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Gistum A-Type Medium Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Pithum C-Type Medium Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Pithum B-Type Medium Remote Shield Booster" />
+  <Item GroupName="Shield" TypeName="Pithum A-Type Medium Remote Shield Booster" />
   <Item GroupName="Shield" TypeName="Gistii C-Type Small Shield Booster" />
   <Item GroupName="Shield" TypeName="Gistii B-Type Small Shield Booster" />
   <Item GroupName="Shield" TypeName="Gistii A-Type Small Shield Booster" />
@@ -3595,7 +3596,7 @@
   <Item GroupName="Engineering Equipment" TypeName="Raysere's Modified Cap Recharger" />
   <Item GroupName="Engineering Equipment" TypeName="Ahremen's Modified Cap Recharger" />
   <Item GroupName="Engineering Equipment" TypeName="Draclira's Modified Cap Recharger" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Gallente Mining Laser" />
+  <Item GroupName="Harvest Equipment" TypeName="Gallente Mining Laser" />
   <Item GroupName="Civilian Modules" TypeName="Civilian Armor Repairer" />
   <Item GroupName="Civilian Modules" TypeName="Civilian Expanded Cargohold" />
   <Item GroupName="Civilian Modules" TypeName="Civilian Afterburner" />
@@ -3624,11 +3625,11 @@
   <Item GroupName="Projectile Ammo" TypeName="Republic Fleet Titanium Sabot M" />
   <Item GroupName="Projectile Ammo" TypeName="Republic Fleet Titanium Sabot S" />
   <Item GroupName="Projectile Ammo" TypeName="Republic Fleet Titanium Sabot XL" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Codebreaker I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Analyzer I" />
+  <Item GroupName="Scanning Equipment" TypeName="Data Analyzer I" />
+  <Item GroupName="Scanning Equipment" TypeName="Relic Analyzer I" />
   <Item GroupName="Fleet Assistance Modules" TypeName="Armored Warfare Link - Rapid Repair I" />
   <Item GroupName="Fleet Assistance Modules" TypeName="Siege Warfare Link - Shield Efficiency I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Ice Harvester II" />
+  <Item GroupName="Harvest Equipment" TypeName="Ice Harvester II" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Ballistic Control System II" />
   <Item GroupName="Battleships" TypeName="Redeemer" />
   <Item GroupName="Battleships" TypeName="Sin" />
@@ -3646,7 +3647,7 @@
   <Item GroupName="Battlecruisers" TypeName="Claymore" />
   <Item GroupName="Battlecruisers" TypeName="Nighthawk" />
   <Item GroupName="Battlecruisers" TypeName="Damnation" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Mining Laser Upgrade I" />
+  <Item GroupName="Harvest Equipment" TypeName="Mining Laser Upgrade I" />
   <Item GroupName="Mining Barges" TypeName="Hulk" />
   <Item GroupName="Mining Barges" TypeName="Skiff" />
   <Item GroupName="Mining Barges" TypeName="Mackinaw" />
@@ -3660,15 +3661,15 @@
   <Item GroupName="Turrets &amp; Bays" TypeName="True Sansha Cruise Missile Launcher" />
   <Item GroupName="Turrets &amp; Bays" TypeName="True Sansha Torpedo Launcher" />
   <Item GroupName="Combat Utility Drones" TypeName="Praetor EV-900" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Ice Harvester Upgrade I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Erin Mining Laser Upgrade" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Elara Mining Laser Upgrade" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Carpo Mining Laser Upgrade" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Aoede Mining Laser Upgrade" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Crisium Ice Harvester Upgrade" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Frigoris Ice Harvester Upgrade" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Anguis Ice Harvester Upgrade" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Ingenii Ice Harvester Upgrade" />
+  <Item GroupName="Harvest Equipment" TypeName="Ice Harvester Upgrade I" />
+  <Item GroupName="Harvest Equipment" TypeName="Erin Mining Laser Upgrade" />
+  <Item GroupName="Harvest Equipment" TypeName="Elara Mining Laser Upgrade" />
+  <Item GroupName="Harvest Equipment" TypeName="Carpo Mining Laser Upgrade" />
+  <Item GroupName="Harvest Equipment" TypeName="Aoede Mining Laser Upgrade" />
+  <Item GroupName="Harvest Equipment" TypeName="Crisium Ice Harvester Upgrade" />
+  <Item GroupName="Harvest Equipment" TypeName="Frigoris Ice Harvester Upgrade" />
+  <Item GroupName="Harvest Equipment" TypeName="Anguis Ice Harvester Upgrade" />
+  <Item GroupName="Harvest Equipment" TypeName="Ingenii Ice Harvester Upgrade" />
   <Item GroupName="Logistic Drones" TypeName="Heavy Shield Maintenance Bot I" />
   <Item GroupName="Probes" TypeName="Warp Disrupt Probe" />
   <Item GroupName="Electronic Warfare" TypeName="Interdiction Sphere Launcher I" />
@@ -3700,15 +3701,15 @@
   <Item GroupName="Turrets &amp; Bays" TypeName="'Marketeer' Tracking Computer I" />
   <Item GroupName="Electronic Warfare" TypeName="'Distributor' Tracking Disruptor I" />
   <Item GroupName="Electronic Warfare" TypeName="'Investor' Tracking Disruptor I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="'Tycoon' Tracking Link I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="'Enterprise' Tracking Link I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="'Boss' Remote Sensor Booster I" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="'Entrepreneur' Remote Sensor Booster I" />
+  <Item GroupName="Turrets &amp; Bays" TypeName="'Tycoon' Remote Tracking Computer" />
+  <Item GroupName="Turrets &amp; Bays" TypeName="'Enterprise' Remote Tracking Computer" />
+  <Item GroupName="Electronics and Sensor Upgrades" TypeName="'Boss' Remote Sensor Booster" />
+  <Item GroupName="Electronics and Sensor Upgrades" TypeName="'Entrepreneur' Remote Sensor Booster" />
   <Item GroupName="Electronic Warfare" TypeName="'Broker' Remote Sensor Dampener I" />
   <Item GroupName="Electronic Warfare" TypeName="'Executive' Remote Sensor Dampener I" />
-  <Item GroupName="Hull &amp; Armor " TypeName="'Beatnik' Small Remote Armor Repair System I" />
-  <Item GroupName="Hull &amp; Armor " TypeName="'Love' Medium Remote Armor Repair System I" />
-  <Item GroupName="Hull &amp; Armor " TypeName="'Pacifier' Large Remote Armor Repair System I" />
+  <Item GroupName="Hull &amp; Armor " TypeName="'Beatnik' Small Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="'Love' Medium Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="'Pacifier' Large Remote Armor Repairer" />
   <Item GroupName="Engineering Equipment" TypeName="'Cartel' Power Diagnostic System I" />
   <Item GroupName="Hybrid Charges" TypeName="Federation Navy Antimatter Charge S" />
   <Item GroupName="Hybrid Charges" TypeName="Federation Navy Plutonium Charge S" />
@@ -3785,8 +3786,8 @@
   <Item GroupName="Frequency Crystals" TypeName="Imperial Navy Infrared L" />
   <Item GroupName="Frequency Crystals" TypeName="Imperial Navy Microwave L" />
   <Item GroupName="Frequency Crystals" TypeName="Imperial Navy Radio L" />
-  <Item GroupName="Hull &amp; Armor " TypeName="'Brotherhood' Small Remote Armor Repair System I" />
-  <Item GroupName="Hull &amp; Armor " TypeName="'Peace' Large Remote Armor Repair System I" />
+  <Item GroupName="Hull &amp; Armor " TypeName="'Brotherhood' Small Remote Armor Repairer" />
+  <Item GroupName="Hull &amp; Armor " TypeName="'Peace' Large Remote Armor Repairer" />
   <Item GroupName="Hull &amp; Armor " TypeName="'Radical' Damage Control I" />
   <Item GroupName="Electronic Warfare Drones" TypeName="Wasp EC-900" />
   <Item GroupName="Electronic Warfare Drones" TypeName="Ogre SD-900" />
@@ -3851,9 +3852,9 @@
   <Item GroupName="Turrets &amp; Bays" TypeName="'Halberd' Mega Pulse Laser I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="'Catapult' Mega Beam Laser I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="'Ballista' Tachyon Beam Laser I" />
-  <Item GroupName="Engineering Equipment" TypeName="'Squire' Small Energy Transfer Array I" />
-  <Item GroupName="Engineering Equipment" TypeName="'Knight' Medium Energy Transfer Array I" />
-  <Item GroupName="Engineering Equipment" TypeName="'Chivalry' Large Energy Transfer Array I" />
+  <Item GroupName="Engineering Equipment" TypeName="'Squire' Small Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="'Knight' Medium Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="'Chivalry' Large Remote Capacitor Transmitter" />
   <Item GroupName="Smartbombs" TypeName="'Pike' Small EMP Smartbomb I" />
   <Item GroupName="Smartbombs" TypeName="'Lance' Medium EMP Smartbomb I" />
   <Item GroupName="Smartbombs" TypeName="'Warhammer' Large EMP Smartbomb I" />
@@ -3869,7 +3870,7 @@
   <Item GroupName="Capital Ships" TypeName="Aeon" />
   <Item GroupName="Fleet Assistance Modules" TypeName="Jump Portal Generator I" />
   <Item GroupName="Drone Upgrades" TypeName="Drone Control Unit I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Modulated Deep Core Strip Miner II" />
+  <Item GroupName="Harvest Equipment" TypeName="Modulated Deep Core Strip Miner II" />
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Small Tractor Beam I" />
   <Item GroupName="Drone Upgrades" TypeName="Drone Navigation Computer I" />
   <Item GroupName="Drone Upgrades" TypeName="Drone Navigation Computer II" />
@@ -3916,7 +3917,7 @@
   <Item GroupName="Turrets &amp; Bays" TypeName="Judgement" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Oblivion" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Aurora Ominae" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Capital Remote Armor Repair System I" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Capital Remote Armor Repairer I" />
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Capital Tractor Beam I" />
   <Item GroupName="Battleships" TypeName="Rokh" />
   <Item GroupName="Battleships" TypeName="Hyperion" />
@@ -3926,9 +3927,9 @@
   <Item GroupName="Battlecruisers" TypeName="Drake" />
   <Item GroupName="Battlecruisers" TypeName="Myrmidon" />
   <Item GroupName="Battlecruisers" TypeName="Hurricane" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Gas Cloud Harvester I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="'Crop' Gas Cloud Harvester" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="'Plow' Gas Cloud Harvester" />
+  <Item GroupName="Harvest Equipment" TypeName="Gas Cloud Harvester I" />
+  <Item GroupName="Harvest Equipment" TypeName="'Crop' Gas Cloud Harvester" />
+  <Item GroupName="Harvest Equipment" TypeName="'Plow' Gas Cloud Harvester" />
   <Item GroupName="Electronic Warfare" TypeName="Signal Distortion Amplifier I" />
   <Item GroupName="Electronic Warfare" TypeName="Signal Distortion Amplifier II" />
   <Item GroupName="Electronic Warfare" TypeName="'Hypnos' Signal Distortion Amplifier I" />
@@ -3941,8 +3942,8 @@
   <Item GroupName="Turrets &amp; Bays" TypeName="Experimental XT-2800 Heavy Assault Missile Launcher I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Heavy Assault Missile Launcher II" />
   <Item GroupName="Rigs" TypeName="Large Anti-EM Pump I" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Gas Cloud Harvester II" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Salvager I" />
+  <Item GroupName="Harvest Equipment" TypeName="Gas Cloud Harvester II" />
+  <Item GroupName="Harvest Equipment" TypeName="Salvager I" />
   <Item GroupName="Rigs" TypeName="Large Anti-Explosive Pump I" />
   <Item GroupName="Rigs" TypeName="Large Anti-Kinetic Pump I" />
   <Item GroupName="Rigs" TypeName="Large Anti-Thermic Pump I" />
@@ -4098,11 +4099,13 @@
   <Item GroupName="Rigs" TypeName="Large Core Defense Operational Solidifier II" />
   <Item GroupName="Special Edition Ships" TypeName="Raven State Issue" />
   <Item GroupName="Special Edition Ships" TypeName="Tempest Tribal Issue" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Small Remote Armor Repair System II" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Medium Remote Armor Repair System II" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Large Remote Armor Repair System II" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Small Remote Armor Repairer II" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Medium Remote Armor Repairer II" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Large Remote Armor Repairer II" />
   <Item GroupName="Rigs" TypeName="Small Processor Overclocking Unit I" />
   <Item GroupName="Rigs" TypeName="Small Processor Overclocking Unit II" />
+  <Item GroupName="Rigs" TypeName="Capital Auxiliary Nano Pump I" />
+  <Item GroupName="Rigs" TypeName="Capital Nanobot Accelerator II" />
   <Item GroupName="Rigs" TypeName="Small Remote Repair Augmentor I" />
   <Item GroupName="Missiles" TypeName="Guristas Inferno Rocket" />
   <Item GroupName="Missiles" TypeName="Caldari Navy Inferno Rocket" />
@@ -4189,7 +4192,7 @@
   <Item GroupName="Missiles" TypeName="Federation Navy Inferno Auto-Targeting Light Missile I" />
   <Item GroupName="Missiles" TypeName="Republic Fleet Nova Auto-Targeting Light Missile I" />
   <Item GroupName="Electronic Warfare" TypeName="Remote ECM Burst I" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Large Remote Hull Repair System I" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Large Remote Hull Repairer I" />
   <Item GroupName="Bombs" TypeName="Concussion Bomb" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Bomb Launcher I" />
   <Item GroupName="Bombs" TypeName="Scorch Bomb" />
@@ -4197,9 +4200,9 @@
   <Item GroupName="Bombs" TypeName="Electron Bomb" />
   <Item GroupName="Bombs" TypeName="Lockbreaker Bomb" />
   <Item GroupName="Bombs" TypeName="Void Bomb" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Medium Remote Hull Repair System I" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Small Remote Hull Repair System I" />
-  <Item GroupName="Hull &amp; Armor " TypeName="Capital Remote Hull Repair System I" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Medium Remote Hull Repairer I" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Small Remote Hull Repairer I" />
+  <Item GroupName="Hull &amp; Armor " TypeName="Capital Remote Hull Repairer I" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Triage Module I" />
   <Item GroupName="Logistic Drones" TypeName="Heavy Armor Maintenance Bot II" />
   <Item GroupName="Logistic Drones" TypeName="Heavy Shield Maintenance Bot II" />
@@ -4278,8 +4281,8 @@
   <Item GroupName="Electronics and Sensor Upgrades" TypeName="Khanid Navy Co-Processor" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Khanid Navy Ballistic Control System" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Khanid Navy Heavy Assault Missile Launcher" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Mining Laser Upgrade II" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Ice Harvester Upgrade II" />
+  <Item GroupName="Harvest Equipment" TypeName="Mining Laser Upgrade II" />
+  <Item GroupName="Harvest Equipment" TypeName="Ice Harvester Upgrade II" />
   <Item GroupName="Turrets &amp; Bays" TypeName="Industrial Core I" />
   <Item GroupName="Capital Ships" TypeName="Orca" />
   <Item GroupName="Fleet Assistance Modules" TypeName="Covert Cynosural Field Generator I" />
@@ -4300,19 +4303,19 @@
   <Item GroupName="Shield" TypeName="Thukker Small Shield Extender" />
   <Item GroupName="Shield" TypeName="Thukker Large Shield Extender" />
   <Item GroupName="Shield" TypeName="Thukker Medium Shield Extender" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="ORE Deep Core Mining Laser" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="ORE Miner" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="ORE Ice Harvester" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="ORE Strip Miner" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Sisters Expanded Probe Launcher" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Sisters Core Probe Launcher" />
+  <Item GroupName="Harvest Equipment" TypeName="ORE Deep Core Mining Laser" />
+  <Item GroupName="Harvest Equipment" TypeName="ORE Miner" />
+  <Item GroupName="Harvest Equipment" TypeName="ORE Ice Harvester" />
+  <Item GroupName="Harvest Equipment" TypeName="ORE Strip Miner" />
+  <Item GroupName="Scanning Equipment" TypeName="Sisters Expanded Probe Launcher" />
+  <Item GroupName="Scanning Equipment" TypeName="Sisters Core Probe Launcher" />
   <Item GroupName="Engineering Equipment" TypeName="Syndicate Reactor Control Unit" />
   <Item GroupName="Hull &amp; Armor " TypeName="Syndicate 100mm Reinforced Steel Plates" />
   <Item GroupName="Hull &amp; Armor " TypeName="Syndicate 1600mm Reinforced Steel Plates" />
   <Item GroupName="Hull &amp; Armor " TypeName="Syndicate 200mm Reinforced Steel Plates" />
   <Item GroupName="Hull &amp; Armor " TypeName="Syndicate 400mm Reinforced Steel Plates" />
   <Item GroupName="Hull &amp; Armor " TypeName="Syndicate 800mm Reinforced Steel Plates" />
-  <Item GroupName="Turrets &amp; Bays" TypeName="Syndicate Gas Cloud Harvester" />
+  <Item GroupName="Harvest Equipment" TypeName="Syndicate Gas Cloud Harvester" />
   <Item GroupName="Special Edition Commodities" TypeName="Magic Crystal Ball" />
   <Item GroupName="Capital Ships" TypeName="Rhea" />
   <Item GroupName="Capital Ships" TypeName="Nomad" />
@@ -4359,7 +4362,6 @@
   <Item GroupName="Cruisers" TypeName="Loki" />
   <Item GroupName="Probes" TypeName="Core Scanner Probe I" />
   <Item GroupName="Probes" TypeName="Combat Scanner Probe I" />
-  <Item GroupName="Probes" TypeName="Deep Space Scanner Probe I" />
   <Item GroupName="Subsystems" TypeName="Legion Electronics - Energy Parasitic Complex" />
   <Item GroupName="Subsystems" TypeName="Legion Electronics - Tactical Targeting Network" />
   <Item GroupName="Subsystems" TypeName="Legion Electronics - Dissolution Sequencer" />
@@ -4428,286 +4430,420 @@
   <Item GroupName="Special Edition Festival Assets" TypeName="Melted Snowball CX" />
   <Item GroupName="Probes" TypeName="Sisters Combat Scanner Probe" />
   <Item GroupName="Probes" TypeName="Sisters Core Scanner Probe" />
-  <Item GroupName="Probes" TypeName="Sisters Deep Space Scanner Probe" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Analyzer II" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Codebreaker II" />
-  <Item GroupName="Electronics and Sensor Upgrades" TypeName="Salvager II" />
+  <Item GroupName="Scanning Equipment" TypeName="Relic Analyzer II" />
+  <Item GroupName="Scanning Equipment" TypeName="Data Analyzer II" />
+  <Item GroupName="Harvest Equipment" TypeName="Salvager II" />
   <Item GroupName="Special Edition Ships" TypeName="Interbus Shuttle" />
   <Item GroupName="Rigs" TypeName="Small Trimark Armor Pump I" />
+  <Item GroupName="Rigs" TypeName="Capital Trimark Armor Pump I" />
   <Item GroupName="Rigs" TypeName="Small Anti-EM Pump I" />
   <Item GroupName="Rigs" TypeName="Medium Anti-EM Pump I" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-EM Pump I" />
   <Item GroupName="Rigs" TypeName="Small Anti-EM Pump II" />
   <Item GroupName="Rigs" TypeName="Medium Anti-EM Pump II" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-EM Pump II" />
   <Item GroupName="Rigs" TypeName="Small Anti-Explosive Pump I" />
   <Item GroupName="Rigs" TypeName="Medium Anti-Explosive Pump I" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-Explosive Pump I" />
   <Item GroupName="Rigs" TypeName="Small Anti-Explosive Pump II" />
   <Item GroupName="Rigs" TypeName="Medium Anti-Explosive Pump II" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-Explosive Pump II" />
   <Item GroupName="Rigs" TypeName="Small Anti-Kinetic Pump I" />
   <Item GroupName="Rigs" TypeName="Medium Anti-Kinetic Pump I" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-Kinetic Pump I" />
   <Item GroupName="Rigs" TypeName="Small Anti-Kinetic Pump II" />
   <Item GroupName="Rigs" TypeName="Medium Anti-Kinetic Pump II" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-Kinetic Pump II" />
   <Item GroupName="Rigs" TypeName="Small Anti-Thermic Pump I" />
   <Item GroupName="Rigs" TypeName="Medium Anti-Thermic Pump I" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-Thermic Pump I" />
   <Item GroupName="Rigs" TypeName="Small Anti-Thermic Pump II" />
   <Item GroupName="Rigs" TypeName="Medium Anti-Thermic Pump II" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-Thermic Pump II" />
   <Item GroupName="Rigs" TypeName="Small Auxiliary Nano Pump I" />
   <Item GroupName="Rigs" TypeName="Medium Auxiliary Nano Pump I" />
+  <Item GroupName="Rigs" TypeName="Capital Auxiliary Nano Pump II" />
   <Item GroupName="Rigs" TypeName="Small Auxiliary Nano Pump II" />
   <Item GroupName="Rigs" TypeName="Medium Auxiliary Nano Pump II" />
   <Item GroupName="Rigs" TypeName="Medium Trimark Armor Pump I" />
   <Item GroupName="Rigs" TypeName="Small Trimark Armor Pump II" />
   <Item GroupName="Rigs" TypeName="Medium Trimark Armor Pump II" />
+  <Item GroupName="Rigs" TypeName="Capital Trimark Armor Pump II" />
   <Item GroupName="Rigs" TypeName="Small Nanobot Accelerator I" />
   <Item GroupName="Rigs" TypeName="Medium Nanobot Accelerator I" />
+  <Item GroupName="Rigs" TypeName="Capital Nanobot Accelerator I" />
   <Item GroupName="Rigs" TypeName="Small Nanobot Accelerator II" />
   <Item GroupName="Rigs" TypeName="Medium Nanobot Accelerator II" />
   <Item GroupName="Rigs" TypeName="Medium Remote Repair Augmentor I" />
+  <Item GroupName="Rigs" TypeName="Capital Remote Repair Augmentor I" />
   <Item GroupName="Rigs" TypeName="Small Remote Repair Augmentor II" />
   <Item GroupName="Rigs" TypeName="Medium Remote Repair Augmentor II" />
+  <Item GroupName="Rigs" TypeName="Capital Remote Repair Augmentor II" />
   <Item GroupName="Rigs" TypeName="Small Salvage Tackle I" />
   <Item GroupName="Rigs" TypeName="Medium Salvage Tackle I" />
+  <Item GroupName="Rigs" TypeName="Capital Salvage Tackle I" />
   <Item GroupName="Rigs" TypeName="Small Salvage Tackle II" />
   <Item GroupName="Rigs" TypeName="Medium Salvage Tackle II" />
+  <Item GroupName="Rigs" TypeName="Capital Salvage Tackle II" />
   <Item GroupName="Rigs" TypeName="Small Auxiliary Thrusters I" />
   <Item GroupName="Rigs" TypeName="Medium Auxiliary Thrusters I" />
+  <Item GroupName="Rigs" TypeName="Capital Auxiliary Thrusters I" />
   <Item GroupName="Rigs" TypeName="Small Auxiliary Thrusters II" />
   <Item GroupName="Rigs" TypeName="Medium Auxiliary Thrusters II" />
+  <Item GroupName="Rigs" TypeName="Capital Auxiliary Thrusters II" />
   <Item GroupName="Rigs" TypeName="Small Cargohold Optimization I" />
   <Item GroupName="Rigs" TypeName="Medium Cargohold Optimization I" />
+  <Item GroupName="Rigs" TypeName="Capital Cargohold Optimization I" />
   <Item GroupName="Rigs" TypeName="Small Cargohold Optimization II" />
   <Item GroupName="Rigs" TypeName="Medium Cargohold Optimization II" />
+  <Item GroupName="Rigs" TypeName="Capital Cargohold Optimization II" />
   <Item GroupName="Rigs" TypeName="Small Dynamic Fuel Valve I" />
   <Item GroupName="Rigs" TypeName="Medium Dynamic Fuel Valve I" />
+  <Item GroupName="Rigs" TypeName="Capital Dynamic Fuel Valve I" />
   <Item GroupName="Rigs" TypeName="Small Dynamic Fuel Valve II" />
   <Item GroupName="Rigs" TypeName="Medium Dynamic Fuel Valve II" />
+  <Item GroupName="Rigs" TypeName="Capital Dynamic Fuel Valve II" />
   <Item GroupName="Rigs" TypeName="Small Engine Thermal Shielding I" />
   <Item GroupName="Rigs" TypeName="Medium Engine Thermal Shielding I" />
+  <Item GroupName="Rigs" TypeName="Capital Engine Thermal Shielding I" />
   <Item GroupName="Rigs" TypeName="Small Engine Thermal Shielding II" />
   <Item GroupName="Rigs" TypeName="Medium Engine Thermal Shielding II" />
+  <Item GroupName="Rigs" TypeName="Capital Engine Thermal Shielding II" />
   <Item GroupName="Rigs" TypeName="Small Low Friction Nozzle Joints I" />
   <Item GroupName="Rigs" TypeName="Medium Low Friction Nozzle Joints I" />
+  <Item GroupName="Rigs" TypeName="Capital Low Friction Nozzle Joints I" />
   <Item GroupName="Rigs" TypeName="Small Hyperspatial Velocity Optimizer I" />
   <Item GroupName="Rigs" TypeName="Medium Hyperspatial Velocity Optimizer I" />
+  <Item GroupName="Rigs" TypeName="Capital Hyperspatial Velocity Optimizer I" />
   <Item GroupName="Rigs" TypeName="Small Hyperspatial Velocity Optimizer II" />
   <Item GroupName="Rigs" TypeName="Medium Hyperspatial Velocity Optimizer II" />
+  <Item GroupName="Rigs" TypeName="Capital Hyperspatial Velocity Optimizer II" />
   <Item GroupName="Rigs" TypeName="Small Low Friction Nozzle Joints II" />
   <Item GroupName="Rigs" TypeName="Medium Low Friction Nozzle Joints II" />
+  <Item GroupName="Rigs" TypeName="Capital Low Friction Nozzle Joints II" />
   <Item GroupName="Rigs" TypeName="Small Polycarbon Engine Housing I" />
   <Item GroupName="Rigs" TypeName="Medium Polycarbon Engine Housing I" />
+  <Item GroupName="Rigs" TypeName="Capital Polycarbon Engine Housing I" />
   <Item GroupName="Rigs" TypeName="Small Polycarbon Engine Housing II" />
   <Item GroupName="Rigs" TypeName="Medium Polycarbon Engine Housing II" />
+  <Item GroupName="Rigs" TypeName="Capital Polycarbon Engine Housing II" />
   <Item GroupName="Rigs" TypeName="Small Warp Core Optimizer I" />
   <Item GroupName="Rigs" TypeName="Medium Warp Core Optimizer I" />
+  <Item GroupName="Rigs" TypeName="Capital Warp Core Optimizer I" />
   <Item GroupName="Rigs" TypeName="Small Warp Core Optimizer II" />
   <Item GroupName="Rigs" TypeName="Medium Warp Core Optimizer II" />
+  <Item GroupName="Rigs" TypeName="Capital Warp Core Optimizer II" />
   <Item GroupName="Rigs" TypeName="Small Emission Scope Sharpener I" />
   <Item GroupName="Rigs" TypeName="Medium Emission Scope Sharpener I" />
+  <Item GroupName="Rigs" TypeName="Capital Emission Scope Sharpener I" />
   <Item GroupName="Rigs" TypeName="Small Emission Scope Sharpener II" />
   <Item GroupName="Rigs" TypeName="Medium Emission Scope Sharpener II" />
+  <Item GroupName="Rigs" TypeName="Capital Emission Scope Sharpener II" />
   <Item GroupName="Rigs" TypeName="Small Gravity Capacitor Upgrade I" />
   <Item GroupName="Rigs" TypeName="Medium Gravity Capacitor Upgrade I" />
+  <Item GroupName="Rigs" TypeName="Capital Gravity Capacitor Upgrade I" />
   <Item GroupName="Rigs" TypeName="Small Gravity Capacitor Upgrade II" />
   <Item GroupName="Rigs" TypeName="Medium Gravity Capacitor Upgrade II" />
+  <Item GroupName="Rigs" TypeName="Capital Gravity Capacitor Upgrade II" />
   <Item GroupName="Rigs" TypeName="Small Liquid Cooled Electronics I" />
   <Item GroupName="Rigs" TypeName="Medium Liquid Cooled Electronics I" />
+  <Item GroupName="Rigs" TypeName="Capital Liquid Cooled Electronics I" />
   <Item GroupName="Rigs" TypeName="Small Liquid Cooled Electronics II" />
   <Item GroupName="Rigs" TypeName="Medium Liquid Cooled Electronics II" />
+  <Item GroupName="Rigs" TypeName="Capital Liquid Cooled Electronics II" />
   <Item GroupName="Rigs" TypeName="Small Memetic Algorithm Bank I" />
   <Item GroupName="Rigs" TypeName="Medium Memetic Algorithm Bank I" />
+  <Item GroupName="Rigs" TypeName="Capital Memetic Algorithm Bank I" />
   <Item GroupName="Rigs" TypeName="Small Memetic Algorithm Bank II" />
   <Item GroupName="Rigs" TypeName="Medium Memetic Algorithm Bank II" />
+  <Item GroupName="Rigs" TypeName="Capital Memetic Algorithm Bank II" />
   <Item GroupName="Rigs" TypeName="Small Signal Disruption Amplifier I" />
   <Item GroupName="Rigs" TypeName="Medium Signal Disruption Amplifier I" />
+  <Item GroupName="Rigs" TypeName="Capital Signal Disruption Amplifier I" />
   <Item GroupName="Rigs" TypeName="Small Signal Disruption Amplifier II" />
   <Item GroupName="Rigs" TypeName="Medium Signal Disruption Amplifier II" />
+  <Item GroupName="Rigs" TypeName="Capital Signal Disruption Amplifier II" />
   <Item GroupName="Rigs" TypeName="Small Inverted Signal Field Projector I" />
   <Item GroupName="Rigs" TypeName="Medium Inverted Signal Field Projector I" />
+  <Item GroupName="Rigs" TypeName="Capital Inverted Signal Field Projector I" />
   <Item GroupName="Rigs" TypeName="Small Inverted Signal Field Projector II" />
   <Item GroupName="Rigs" TypeName="Medium Inverted Signal Field Projector II" />
+  <Item GroupName="Rigs" TypeName="Capital Inverted Signal Field Projector II" />
   <Item GroupName="Rigs" TypeName="Small Ionic Field Projector I" />
   <Item GroupName="Rigs" TypeName="Medium Ionic Field Projector I" />
+  <Item GroupName="Rigs" TypeName="Capital Ionic Field Projector I" />
   <Item GroupName="Rigs" TypeName="Small Ionic Field Projector II" />
   <Item GroupName="Rigs" TypeName="Medium Ionic Field Projector II" />
+  <Item GroupName="Rigs" TypeName="Capital Ionic Field Projector II" />
   <Item GroupName="Rigs" TypeName="Small Particle Dispersion Augmentor I" />
   <Item GroupName="Rigs" TypeName="Medium Particle Dispersion Augmentor I" />
+  <Item GroupName="Rigs" TypeName="Capital Particle Dispersion Augmentor I" />
   <Item GroupName="Rigs" TypeName="Small Particle Dispersion Augmentor II" />
   <Item GroupName="Rigs" TypeName="Medium Particle Dispersion Augmentor II" />
+  <Item GroupName="Rigs" TypeName="Capital Particle Dispersion Augmentor II" />
   <Item GroupName="Rigs" TypeName="Small Particle Dispersion Projector I" />
   <Item GroupName="Rigs" TypeName="Medium Particle Dispersion Projector I" />
+  <Item GroupName="Rigs" TypeName="Capital Particle Dispersion Projector I" />
   <Item GroupName="Rigs" TypeName="Small Particle Dispersion Projector II" />
   <Item GroupName="Rigs" TypeName="Medium Particle Dispersion Projector II" />
+  <Item GroupName="Rigs" TypeName="Capital Particle Dispersion Projector II" />
   <Item GroupName="Rigs" TypeName="Small Signal Focusing Kit I" />
   <Item GroupName="Rigs" TypeName="Medium Signal Focusing Kit I" />
+  <Item GroupName="Rigs" TypeName="Capital Signal Focusing Kit I" />
   <Item GroupName="Rigs" TypeName="Small Signal Focusing Kit II" />
   <Item GroupName="Rigs" TypeName="Medium Signal Focusing Kit II" />
+  <Item GroupName="Rigs" TypeName="Capital Signal Focusing Kit II" />
   <Item GroupName="Rigs" TypeName="Small Targeting System Subcontroller I" />
   <Item GroupName="Rigs" TypeName="Medium Targeting System Subcontroller I" />
+  <Item GroupName="Rigs" TypeName="Capital Targeting System Subcontroller I" />
   <Item GroupName="Rigs" TypeName="Small Targeting System Subcontroller II" />
   <Item GroupName="Rigs" TypeName="Medium Targeting System Subcontroller II" />
+  <Item GroupName="Rigs" TypeName="Capital Targeting System Subcontroller II" />
   <Item GroupName="Rigs" TypeName="Small Targeting Systems Stabilizer I" />
   <Item GroupName="Rigs" TypeName="Medium Targeting Systems Stabilizer I" />
+  <Item GroupName="Rigs" TypeName="Capital Targeting Systems Stabilizer I" />
   <Item GroupName="Rigs" TypeName="Small Targeting Systems Stabilizer II" />
   <Item GroupName="Rigs" TypeName="Medium Targeting Systems Stabilizer II" />
+  <Item GroupName="Rigs" TypeName="Capital Targeting Systems Stabilizer II" />
   <Item GroupName="Rigs" TypeName="Small Tracking Diagnostic Subroutines I" />
   <Item GroupName="Rigs" TypeName="Medium Tracking Diagnostic Subroutines I" />
+  <Item GroupName="Rigs" TypeName="Capital Tracking Diagnostic Subroutines I" />
   <Item GroupName="Rigs" TypeName="Small Tracking Diagnostic Subroutines II" />
   <Item GroupName="Rigs" TypeName="Medium Tracking Diagnostic Subroutines II" />
+  <Item GroupName="Rigs" TypeName="Capital Tracking Diagnostic Subroutines II" />
   <Item GroupName="Rigs" TypeName="Small Ancillary Current Router I" />
   <Item GroupName="Rigs" TypeName="Medium Ancillary Current Router I" />
+  <Item GroupName="Rigs" TypeName="Capital Ancillary Current Router I" />
   <Item GroupName="Rigs" TypeName="Small Ancillary Current Router II" />
   <Item GroupName="Rigs" TypeName="Medium Ancillary Current Router II" />
+  <Item GroupName="Rigs" TypeName="Capital Ancillary Current Router II" />
   <Item GroupName="Rigs" TypeName="Small Capacitor Control Circuit I" />
   <Item GroupName="Rigs" TypeName="Medium Capacitor Control Circuit I" />
+  <Item GroupName="Rigs" TypeName="Capital Capacitor Control Circuit I" />
   <Item GroupName="Rigs" TypeName="Small Capacitor Control Circuit II" />
   <Item GroupName="Rigs" TypeName="Medium Capacitor Control Circuit II" />
+  <Item GroupName="Rigs" TypeName="Capital Capacitor Control Circuit II" />
   <Item GroupName="Rigs" TypeName="Small Egress Port Maximizer I" />
   <Item GroupName="Rigs" TypeName="Medium Egress Port Maximizer I" />
+  <Item GroupName="Rigs" TypeName="Capital Egress Port Maximizer I" />
   <Item GroupName="Rigs" TypeName="Small Egress Port Maximizer II" />
   <Item GroupName="Rigs" TypeName="Medium Egress Port Maximizer II" />
+  <Item GroupName="Rigs" TypeName="Capital Egress Port Maximizer II" />
   <Item GroupName="Rigs" TypeName="Small Powergrid Subroutine Maximizer I" />
   <Item GroupName="Rigs" TypeName="Medium Powergrid Subroutine Maximizer I" />
+  <Item GroupName="Rigs" TypeName="Capital Powergrid Subroutine Maximizer I" />
   <Item GroupName="Rigs" TypeName="Small Powergrid Subroutine Maximizer II" />
   <Item GroupName="Rigs" TypeName="Medium Powergrid Subroutine Maximizer II" />
+  <Item GroupName="Rigs" TypeName="Capital Powergrid Subroutine Maximizer II" />
   <Item GroupName="Rigs" TypeName="Small Semiconductor Memory Cell I" />
   <Item GroupName="Rigs" TypeName="Medium Semiconductor Memory Cell I" />
+  <Item GroupName="Rigs" TypeName="Capital Semiconductor Memory Cell I" />
   <Item GroupName="Rigs" TypeName="Small Semiconductor Memory Cell II" />
   <Item GroupName="Rigs" TypeName="Medium Semiconductor Memory Cell II" />
+  <Item GroupName="Rigs" TypeName="Capital Semiconductor Memory Cell II" />
   <Item GroupName="Rigs" TypeName="Small Algid Energy Administrations Unit I" />
   <Item GroupName="Rigs" TypeName="Medium Algid Energy Administrations Unit I" />
+  <Item GroupName="Rigs" TypeName="Capital Algid Energy Administrations Unit I" />
   <Item GroupName="Rigs" TypeName="Small Algid Energy Administrations Unit II" />
   <Item GroupName="Rigs" TypeName="Medium Algid Energy Administrations Unit II" />
+  <Item GroupName="Rigs" TypeName="Capital Algid Energy Administrations Unit II" />
   <Item GroupName="Rigs" TypeName="Small Energy Ambit Extension I" />
   <Item GroupName="Rigs" TypeName="Medium Energy Ambit Extension I" />
+  <Item GroupName="Rigs" TypeName="Capital Energy Ambit Extension I" />
   <Item GroupName="Rigs" TypeName="Small Energy Ambit Extension II" />
   <Item GroupName="Rigs" TypeName="Medium Energy Ambit Extension II" />
+  <Item GroupName="Rigs" TypeName="Capital Energy Ambit Extension II" />
   <Item GroupName="Rigs" TypeName="Small Energy Burst Aerator I" />
   <Item GroupName="Rigs" TypeName="Medium Energy Burst Aerator I" />
+  <Item GroupName="Rigs" TypeName="Capital Energy Burst Aerator I" />
   <Item GroupName="Rigs" TypeName="Small Energy Burst Aerator II" />
   <Item GroupName="Rigs" TypeName="Medium Energy Burst Aerator II" />
+  <Item GroupName="Rigs" TypeName="Capital Energy Burst Aerator II" />
   <Item GroupName="Rigs" TypeName="Small Energy Collision Accelerator I" />
   <Item GroupName="Rigs" TypeName="Medium Energy Collision Accelerator I" />
+  <Item GroupName="Rigs" TypeName="Capital Energy Collision Accelerator I" />
   <Item GroupName="Rigs" TypeName="Small Energy Collision Accelerator II" />
   <Item GroupName="Rigs" TypeName="Medium Energy Collision Accelerator II" />
+  <Item GroupName="Rigs" TypeName="Capital Energy Collision Accelerator II" />
   <Item GroupName="Rigs" TypeName="Small Energy Discharge Elutriation I" />
   <Item GroupName="Rigs" TypeName="Medium Energy Discharge Elutriation I" />
+  <Item GroupName="Rigs" TypeName="Capital Energy Discharge Elutriation I" />
   <Item GroupName="Rigs" TypeName="Small Energy Discharge Elutriation II" />
   <Item GroupName="Rigs" TypeName="Medium Energy Discharge Elutriation II" />
+  <Item GroupName="Rigs" TypeName="Capital Energy Discharge Elutriation II" />
   <Item GroupName="Rigs" TypeName="Small Energy Locus Coordinator I" />
   <Item GroupName="Rigs" TypeName="Medium Energy Locus Coordinator I" />
+  <Item GroupName="Rigs" TypeName="Capital Energy Locus Coordinator I" />
   <Item GroupName="Rigs" TypeName="Small Energy Locus Coordinator II" />
   <Item GroupName="Rigs" TypeName="Medium Energy Locus Coordinator II" />
+  <Item GroupName="Rigs" TypeName="Capital Energy Locus Coordinator II" />
   <Item GroupName="Rigs" TypeName="Small Energy Metastasis Adjuster I" />
   <Item GroupName="Rigs" TypeName="Medium Energy Metastasis Adjuster I" />
+  <Item GroupName="Rigs" TypeName="Capital Energy Metastasis Adjuster I" />
   <Item GroupName="Rigs" TypeName="Small Energy Metastasis Adjuster II" />
   <Item GroupName="Rigs" TypeName="Medium Energy Metastasis Adjuster II" />
+  <Item GroupName="Rigs" TypeName="Capital Energy Metastasis Adjuster II" />
   <Item GroupName="Rigs" TypeName="Small Algid Hybrid Administrations Unit I" />
   <Item GroupName="Rigs" TypeName="Medium Algid Hybrid Administrations Unit I" />
+  <Item GroupName="Rigs" TypeName="Capital Algid Hybrid Administrations Unit I" />
   <Item GroupName="Rigs" TypeName="Small Algid Hybrid Administrations Unit II" />
   <Item GroupName="Rigs" TypeName="Medium Algid Hybrid Administrations Unit II" />
+  <Item GroupName="Rigs" TypeName="Capital Algid Hybrid Administrations Unit II" />
   <Item GroupName="Rigs" TypeName="Small Hybrid Ambit Extension I" />
   <Item GroupName="Rigs" TypeName="Medium Hybrid Ambit Extension I" />
+  <Item GroupName="Rigs" TypeName="Capital Hybrid Ambit Extension I" />
   <Item GroupName="Rigs" TypeName="Small Hybrid Ambit Extension II" />
   <Item GroupName="Rigs" TypeName="Medium Hybrid Ambit Extension II" />
+  <Item GroupName="Rigs" TypeName="Capital Hybrid Ambit Extension II" />
   <Item GroupName="Rigs" TypeName="Small Hybrid Burst Aerator I" />
   <Item GroupName="Rigs" TypeName="Medium Hybrid Burst Aerator I" />
+  <Item GroupName="Rigs" TypeName="Capital Hybrid Burst Aerator I" />
   <Item GroupName="Rigs" TypeName="Small Hybrid Burst Aerator II" />
   <Item GroupName="Rigs" TypeName="Medium Hybrid Burst Aerator II" />
+  <Item GroupName="Rigs" TypeName="Capital Hybrid Burst Aerator II" />
   <Item GroupName="Rigs" TypeName="Small Hybrid Collision Accelerator I" />
   <Item GroupName="Rigs" TypeName="Medium Hybrid Collision Accelerator I" />
+  <Item GroupName="Rigs" TypeName="Capital Hybrid Collision Accelerator I" />
   <Item GroupName="Rigs" TypeName="Small Hybrid Collision Accelerator II" />
   <Item GroupName="Rigs" TypeName="Medium Hybrid Collision Accelerator II" />
+  <Item GroupName="Rigs" TypeName="Capital Hybrid Collision Accelerator II" />
   <Item GroupName="Rigs" TypeName="Small Hybrid Discharge Elutriation I" />
   <Item GroupName="Rigs" TypeName="Medium Hybrid Discharge Elutriation I" />
+  <Item GroupName="Rigs" TypeName="Capital Hybrid Discharge Elutriation I" />
   <Item GroupName="Rigs" TypeName="Small Hybrid Discharge Elutriation II" />
   <Item GroupName="Rigs" TypeName="Medium Hybrid Discharge Elutriation II" />
+  <Item GroupName="Rigs" TypeName="Capital Hybrid Discharge Elutriation II" />
   <Item GroupName="Rigs" TypeName="Small Hybrid Locus Coordinator I" />
   <Item GroupName="Rigs" TypeName="Medium Hybrid Locus Coordinator I" />
+  <Item GroupName="Rigs" TypeName="Capital Hybrid Locus Coordinator I" />
   <Item GroupName="Rigs" TypeName="Small Hybrid Locus Coordinator II" />
   <Item GroupName="Rigs" TypeName="Medium Hybrid Locus Coordinator II" />
+  <Item GroupName="Rigs" TypeName="Capital Hybrid Locus Coordinator II" />
   <Item GroupName="Rigs" TypeName="Small Hybrid Metastasis Adjuster I" />
   <Item GroupName="Rigs" TypeName="Medium Hybrid Metastasis Adjuster I" />
+  <Item GroupName="Rigs" TypeName="Capital Hybrid Metastasis Adjuster I" />
   <Item GroupName="Rigs" TypeName="Small Hybrid Metastasis Adjuster II" />
   <Item GroupName="Rigs" TypeName="Medium Hybrid Metastasis Adjuster II" />
+  <Item GroupName="Rigs" TypeName="Capital Hybrid Metastasis Adjuster II" />
   <Item GroupName="Rigs" TypeName="Small Bay Loading Accelerator I" />
   <Item GroupName="Rigs" TypeName="Medium Bay Loading Accelerator I" />
+  <Item GroupName="Rigs" TypeName="Capital Bay Loading Accelerator I" />
   <Item GroupName="Rigs" TypeName="Small Bay Loading Accelerator II" />
   <Item GroupName="Rigs" TypeName="Medium Bay Loading Accelerator II" />
+  <Item GroupName="Rigs" TypeName="Capital Bay Loading Accelerator II" />
   <Item GroupName="Rigs" TypeName="Small Hydraulic Bay Thrusters I" />
   <Item GroupName="Rigs" TypeName="Medium Hydraulic Bay Thrusters I" />
+  <Item GroupName="Rigs" TypeName="Capital Hydraulic Bay Thrusters I" />
   <Item GroupName="Rigs" TypeName="Small Hydraulic Bay Thrusters II" />
   <Item GroupName="Rigs" TypeName="Medium Hydraulic Bay Thrusters II" />
   <Item GroupName="Rigs" TypeName="Small Rocket Fuel Cache Partition I" />
   <Item GroupName="Rigs" TypeName="Medium Rocket Fuel Cache Partition I" />
+  <Item GroupName="Rigs" TypeName="Capital Rocket Fuel Cache Partition I" />
   <Item GroupName="Rigs" TypeName="Small Rocket Fuel Cache Partition II" />
   <Item GroupName="Rigs" TypeName="Medium Rocket Fuel Cache Partition II" />
+  <Item GroupName="Rigs" TypeName="Capital Rocket Fuel Cache Partition II" />
   <Item GroupName="Rigs" TypeName="Small Warhead Calefaction Catalyst I" />
   <Item GroupName="Rigs" TypeName="Medium Warhead Calefaction Catalyst I" />
+  <Item GroupName="Rigs" TypeName="Capital Warhead Calefaction Catalyst I" />
   <Item GroupName="Rigs" TypeName="Small Warhead Calefaction Catalyst II" />
   <Item GroupName="Rigs" TypeName="Medium Warhead Calefaction Catalyst II" />
+  <Item GroupName="Rigs" TypeName="Capital Warhead Calefaction Catalyst II" />
   <Item GroupName="Rigs" TypeName="Small Warhead Flare Catalyst I" />
   <Item GroupName="Rigs" TypeName="Medium Warhead Flare Catalyst I" />
+  <Item GroupName="Rigs" TypeName="Capital Warhead Flare Catalyst I" />
   <Item GroupName="Rigs" TypeName="Small Warhead Flare Catalyst II" />
   <Item GroupName="Rigs" TypeName="Medium Warhead Flare Catalyst II" />
+  <Item GroupName="Rigs" TypeName="Capital Warhead Flare Catalyst II" />
   <Item GroupName="Rigs" TypeName="Small Warhead Rigor Catalyst I" />
   <Item GroupName="Rigs" TypeName="Medium Warhead Rigor Catalyst I" />
+  <Item GroupName="Rigs" TypeName="Capital Warhead Rigor Catalyst I" />
   <Item GroupName="Rigs" TypeName="Small Warhead Rigor Catalyst II" />
   <Item GroupName="Rigs" TypeName="Medium Warhead Rigor Catalyst II" />
+  <Item GroupName="Rigs" TypeName="Capital Warhead Rigor Catalyst II" />
   <Item GroupName="Rigs" TypeName="Small Projectile Ambit Extension I" />
   <Item GroupName="Rigs" TypeName="Medium Projectile Ambit Extension I" />
+  <Item GroupName="Rigs" TypeName="Capital Projectile Ambit Extension I" />
   <Item GroupName="Rigs" TypeName="Small Projectile Ambit Extension II" />
   <Item GroupName="Rigs" TypeName="Medium Projectile Ambit Extension II" />
+  <Item GroupName="Rigs" TypeName="Capital Projectile Ambit Extension II" />
   <Item GroupName="Rigs" TypeName="Small Projectile Burst Aerator I" />
   <Item GroupName="Rigs" TypeName="Medium Projectile Burst Aerator I" />
+  <Item GroupName="Rigs" TypeName="Capital Projectile Burst Aerator I" />
   <Item GroupName="Rigs" TypeName="Small Projectile Burst Aerator II" />
   <Item GroupName="Rigs" TypeName="Medium Projectile Burst Aerator II" />
+  <Item GroupName="Rigs" TypeName="Capital Projectile Burst Aerator II" />
   <Item GroupName="Rigs" TypeName="Small Projectile Collision Accelerator I" />
   <Item GroupName="Rigs" TypeName="Medium Projectile Collision Accelerator I" />
+  <Item GroupName="Rigs" TypeName="Capital Projectile Collision Accelerator I" />
   <Item GroupName="Rigs" TypeName="Small Projectile Collision Accelerator II" />
   <Item GroupName="Rigs" TypeName="Medium Projectile Collision Accelerator II" />
+  <Item GroupName="Rigs" TypeName="Capital Projectile Collision Accelerator II" />
   <Item GroupName="Rigs" TypeName="Small Projectile Locus Coordinator I" />
   <Item GroupName="Rigs" TypeName="Medium Projectile Locus Coordinator I" />
+  <Item GroupName="Rigs" TypeName="Capital Projectile Locus Coordinator I" />
   <Item GroupName="Rigs" TypeName="Small Projectile Locus Coordinator II" />
   <Item GroupName="Rigs" TypeName="Medium Projectile Locus Coordinator II" />
+  <Item GroupName="Rigs" TypeName="Capital Projectile Locus Coordinator II" />
   <Item GroupName="Rigs" TypeName="Small Projectile Metastasis Adjuster I" />
   <Item GroupName="Rigs" TypeName="Medium Projectile Metastasis Adjuster I" />
+  <Item GroupName="Rigs" TypeName="Capital Projectile Metastasis Adjuster I" />
   <Item GroupName="Rigs" TypeName="Small Projectile Metastasis Adjuster II" />
   <Item GroupName="Rigs" TypeName="Medium Projectile Metastasis Adjuster II" />
+  <Item GroupName="Rigs" TypeName="Capital Projectile Metastasis Adjuster II" />
   <Item GroupName="Rigs" TypeName="Small Anti-EM Screen Reinforcer I" />
   <Item GroupName="Rigs" TypeName="Medium Anti-EM Screen Reinforcer I" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-EM Screen Reinforcer I" />
   <Item GroupName="Rigs" TypeName="Small Anti-EM Screen Reinforcer II" />
   <Item GroupName="Rigs" TypeName="Medium Anti-EM Screen Reinforcer II" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-EM Screen Reinforcer II" />
   <Item GroupName="Rigs" TypeName="Small Anti-Explosive Screen Reinforcer I" />
   <Item GroupName="Rigs" TypeName="Medium Anti-Explosive Screen Reinforcer I" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-Explosive Screen Reinforcer I" />
   <Item GroupName="Rigs" TypeName="Small Anti-Explosive Screen Reinforcer II" />
   <Item GroupName="Rigs" TypeName="Medium Anti-Explosive Screen Reinforcer II" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-Explosive Screen Reinforcer II" />
   <Item GroupName="Rigs" TypeName="Small Anti-Kinetic Screen Reinforcer I" />
   <Item GroupName="Rigs" TypeName="Medium Anti-Kinetic Screen Reinforcer I" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-Kinetic Screen Reinforcer I" />
   <Item GroupName="Rigs" TypeName="Small Anti-Kinetic Screen Reinforcer II" />
   <Item GroupName="Rigs" TypeName="Medium Anti-Kinetic Screen Reinforcer II" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-Kinetic Screen Reinforcer II" />
   <Item GroupName="Rigs" TypeName="Small Anti-Thermal Screen Reinforcer I" />
   <Item GroupName="Rigs" TypeName="Medium Anti-Thermal Screen Reinforcer I" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-Thermal Screen Reinforcer I" />
   <Item GroupName="Rigs" TypeName="Small Anti-Thermal Screen Reinforcer II" />
   <Item GroupName="Rigs" TypeName="Medium Anti-Thermal Screen Reinforcer II" />
+  <Item GroupName="Rigs" TypeName="Capital Anti-Thermal Screen Reinforcer II" />
   <Item GroupName="Rigs" TypeName="Small Core Defense Capacitor Safeguard I" />
   <Item GroupName="Rigs" TypeName="Medium Core Defense Capacitor Safeguard I" />
+  <Item GroupName="Rigs" TypeName="Capital Core Defense Capacitor Safeguard I" />
   <Item GroupName="Rigs" TypeName="Small Core Defense Capacitor Safeguard II" />
   <Item GroupName="Rigs" TypeName="Medium Core Defense Capacitor Safeguard II" />
+  <Item GroupName="Rigs" TypeName="Capital Core Defense Capacitor Safeguard II" />
   <Item GroupName="Rigs" TypeName="Small Core Defense Charge Economizer I" />
   <Item GroupName="Rigs" TypeName="Medium Core Defense Charge Economizer I" />
+  <Item GroupName="Rigs" TypeName="Capital Core Defense Charge Economizer I" />
   <Item GroupName="Rigs" TypeName="Small Core Defense Charge Economizer II" />
   <Item GroupName="Rigs" TypeName="Medium Core Defense Charge Economizer II" />
+  <Item GroupName="Rigs" TypeName="Capital Core Defense Charge Economizer II" />
   <Item GroupName="Rigs" TypeName="Small Core Defense Field Extender I" />
   <Item GroupName="Rigs" TypeName="Medium Core Defense Field Extender I" />
+  <Item GroupName="Rigs" TypeName="Capital Core Defense Field Extender I" />
   <Item GroupName="Rigs" TypeName="Small Core Defense Field Extender II" />
   <Item GroupName="Rigs" TypeName="Medium Core Defense Field Extender II" />
+  <Item GroupName="Rigs" TypeName="Capital Core Defense Field Extender II" />
   <Item GroupName="Rigs" TypeName="Small Core Defense Field Purger I" />
   <Item GroupName="Rigs" TypeName="Medium Core Defense Field Purger I" />
+  <Item GroupName="Rigs" TypeName="Capital Core Defense Field Purger I" />
   <Item GroupName="Rigs" TypeName="Small Core Defense Field Purger II" />
   <Item GroupName="Rigs" TypeName="Medium Core Defense Field Purger II" />
+  <Item GroupName="Rigs" TypeName="Capital Core Defense Field Purger II" />
   <Item GroupName="Rigs" TypeName="Small Core Defense Operational Solidifier I" />
   <Item GroupName="Rigs" TypeName="Medium Core Defense Operational Solidifier I" />
+  <Item GroupName="Rigs" TypeName="Capital Core Defense Operational Solidifier I" />
   <Item GroupName="Rigs" TypeName="Small Core Defense Operational Solidifier II" />
   <Item GroupName="Rigs" TypeName="Medium Core Defense Operational Solidifier II" />
+  <Item GroupName="Rigs" TypeName="Capital Core Defense Operational Solidifier II" />
   <Item GroupName="Combat Drones" TypeName="Imperial Navy Acolyte" />
   <Item GroupName="Combat Drones" TypeName="Imperial Navy Infiltrator" />
   <Item GroupName="Combat Drones" TypeName="Imperial Navy Curator" />
@@ -4743,9 +4879,9 @@
   <Item GroupName="Engineering Equipment" TypeName="Navy Micro Auxiliary Power Core" />
   <Item GroupName="Drone Upgrades" TypeName="Federation Navy Omnidirectional Tracking Link" />
   <Item GroupName="Electronic Warfare" TypeName="Republic Fleet Target Painter" />
-  <Item GroupName="Engineering Equipment" TypeName="Imperial Navy Large Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Imperial Navy Medium Energy Transfer Array" />
-  <Item GroupName="Engineering Equipment" TypeName="Imperial Navy Small Energy Transfer Array" />
+  <Item GroupName="Engineering Equipment" TypeName="Imperial Navy Large Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Imperial Navy Medium Remote Capacitor Transmitter" />
+  <Item GroupName="Engineering Equipment" TypeName="Imperial Navy Small Remote Capacitor Transmitter" />
   <Item GroupName="Engineering Equipment" TypeName="Caldari Navy Power Diagnostic System" />
   <Item GroupName="Cap Booster Charges" TypeName="Navy Cap Booster 100" />
   <Item GroupName="Cap Booster Charges" TypeName="Navy Cap Booster 150" />
@@ -4814,7 +4950,7 @@
   <Item GroupName="Projectile Ammo" TypeName="Tactical EMP S" />
   <Item GroupName="Hybrid Charges" TypeName="Tactical Hybrid S" />
   <Item GroupName="Hull &amp; Armor " TypeName="Ammatar Navy Thermic Plating" />
-  <Item GroupName="Special Edition Ships" TypeName="Iteron Mark IV Amastris Edition" />
+  <Item GroupName="Special Edition Ships" TypeName="Miasmos Amastris Edition" />
   <Item GroupName="Rigs" TypeName="Medium Mercoxit Mining Crystal Optimization I" />
   <Item GroupName="Rigs" TypeName="Medium Ice Harvester Accelerator I" />
   <Item GroupName="Special Edition Ships" TypeName="InterBus Catalyst" />
@@ -4910,4 +5046,67 @@
   <Item GroupName="Special Edition Ships" TypeName="Nefantar Thrasher" />
   <Item GroupName="Hull &amp; Armor " TypeName="Medium Ancillary Armor Repairer" />
   <Item GroupName="Hull &amp; Armor " TypeName="Large Ancillary Armor Repairer" />
+  <Item GroupName="Battlecruisers" TypeName="Brutix Navy Issue" />
+  <Item GroupName="Battlecruisers" TypeName="Drake Navy Issue" />
+  <Item GroupName="Battlecruisers" TypeName="Harbinger Navy Issue" />
+  <Item GroupName="Battlecruisers" TypeName="Hurricane Fleet Issue" />
+  <Item GroupName="Scanning Equipment" TypeName="Scan Acquisition Array I" />
+  <Item GroupName="Scanning Equipment" TypeName="Scan Pinpointing Array I" />
+  <Item GroupName="Scanning Equipment" TypeName="Scan Rangefinding Array I" />
+  <Item GroupName="Special Edition Ships" TypeName="Tash-Murkon Magnate" />
+  <Item GroupName="Scanning Equipment" TypeName="Scan Acquisition Array II" />
+  <Item GroupName="Scanning Equipment" TypeName="Scan Pinpointing Array II" />
+  <Item GroupName="Scanning Equipment" TypeName="Scan Rangefinding Array II" />
+  <Item GroupName="Special Edition Commodities" TypeName="A piece of Steve" />
+  <Item GroupName="Special Edition Commodities" TypeName="Band of Brothers Director Access Key" />
+  <Item GroupName="Special Edition Commodities" TypeName="Press pass to Prometheus Station opening" />
+  <Item GroupName="Special Edition Commodities" TypeName="Lost reminder to pay sov bill" />
+  <Item GroupName="Special Edition Commodities" TypeName="Assassination Contract: Mirial" />
+  <Item GroupName="Special Edition Commodities" TypeName="Premier ticket for: The last G campaign" />
+  <Item GroupName="Special Edition Commodities" TypeName="Premier ticket for: Clear Skies" />
+  <Item GroupName="Special Edition Commodities" TypeName="Premier ticket for: Day of Darkness" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament I: Band of Brothers" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament II: Band of Brothers" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament III: Band of Brothers" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament III: Cult of War" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament IV: HUN Reloaded" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament IV: Star Fraction" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament V: Ev0ke" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament VI: Pandemic Legion" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament VII: Pandemic Legion" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament VIII: Pandemic Legion" />
+  <Item GroupName="Scanning Equipment" TypeName="Survey Probe Launcher I" />
+  <Item GroupName="Scanning Equipment" TypeName="Survey Probe Launcher II" />
+  <Item GroupName="Rigs" TypeName="Capital Drone Control Range Augmentor I" />
+  <Item GroupName="Rigs" TypeName="Capital Drone Control Range Augmentor II" />
+  <Item GroupName="Rigs" TypeName="Capital Drone Durability Enhancer I" />
+  <Item GroupName="Rigs" TypeName="Capital Drone Durability Enhancer II" />
+  <Item GroupName="Rigs" TypeName="Capital Drone Mining Augmentor I" />
+  <Item GroupName="Rigs" TypeName="Capital Drone Mining Augmentor II" />
+  <Item GroupName="Rigs" TypeName="Capital Drone Repair Augmentor I" />
+  <Item GroupName="Rigs" TypeName="Capital Drone Repair Augmentor II" />
+  <Item GroupName="Rigs" TypeName="Capital Drone Scope Chip I" />
+  <Item GroupName="Rigs" TypeName="Capital Drone Scope Chip II" />
+  <Item GroupName="Rigs" TypeName="Capital Drone Speed Augmentor I" />
+  <Item GroupName="Rigs" TypeName="Capital Drone Speed Augmentor II" />
+  <Item GroupName="Rigs" TypeName="Capital Hydraulic Bay Thrusters II" />
+  <Item GroupName="Rigs" TypeName="Capital Processor Overclocking Unit I" />
+  <Item GroupName="Rigs" TypeName="Capital Processor Overclocking Unit II" />
+  <Item GroupName="Rigs" TypeName="Capital Sentry Damage Augmentor I" />
+  <Item GroupName="Rigs" TypeName="Capital Sentry Damage Augmentor II" />
+  <Item GroupName="Rigs" TypeName="Capital Stasis Drone Augmentor I" />
+  <Item GroupName="Rigs" TypeName="Capital Stasis Drone Augmentor II" />
+  <Item GroupName="Cap Booster Charges" TypeName="Navy Cap Booster 25" />
+  <Item GroupName="Cap Booster Charges" TypeName="Navy Cap Booster 50" />
+  <Item GroupName="Cap Booster Charges" TypeName="Navy Cap Booster 75" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament IX: HYDRA RELOADED and 0utbreak" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament X: Verge of Collapse" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament I: KAOS Empire" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament III: Interstellar Alcohol Conglomerate" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament IV: Pandemic Legion" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament V: Triumvirate" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament VIII: HYDRA RELOADED" />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament VI: R.U.R." />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament IX: Darkside." />
+  <Item GroupName="Special Edition Tournament Cards" TypeName="Alliance Tournament X: HUN Reloaded" />
 </Items>

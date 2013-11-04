@@ -1,5 +1,5 @@
 ﻿/*
-Using the data export from CCP found here: http://community.eveonline.com/community/toolkit.asp
+Using the data export from CCP found here:  http://community.eveonline.com/community/fansites/toolkit/
 This query extracts a dictionary of type names (modules, ships, charges) and their
 parent market group name. I could have gotten all group names in the heirarchy but
 I felt it was too messy when all I want is high level grouping and sorting.
